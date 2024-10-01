@@ -1,0 +1,90 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+
+/*** HEADER STYLES ***/
+.site-header {
+    background: linear-gradient(-45deg, #aec8bd, #e4b8c9, #a1c3ce, #a1d2c6);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/*** HERO STYLES ****/
+#hero-body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    color: #F8F8F8;
+}
+
+#hero-body h1 {
+    font-size: $base-font-size * 3.5;
+    font-weight: 700;
+}
+
+#hero-body p {
+    font-size: $base-font-size * 2;
+    font-weight: 300;
+}
+
+#hero-body p a {
+    color: #f5f83a;
+}
+
+#hero-content {
+    margin: 32px 16px 64px 16px;
+}
+
+#hero-last-p {
+    margin-bottom: 48px;
+}
+
+#hero-button {
+    border-style: solid;
+    border-color: #F8F8F8;
+    font-size: $base-font-size * 1.2;
+    padding: 12px 24px;
+    color: #F8F8F8;
+}
+
+#hero-button:hover {
+    border-style: solid;
+    border-color: #F8F8F8;
+    background-color: rgba(253, 253, 253, 0.1);
+    text-decoration: none;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+
+    #hero-body h1 {
+        font-size: $base-font-size * 3;
+        font-weight: 700;
+    }
+    
+    #hero-body p {
+        font-size: $base-font-size * 1.5;
+        font-weight: 300;
+    }
+
+    #hero-button {
+        font-size: $base-font-size * 1;
+    }
+
+}
