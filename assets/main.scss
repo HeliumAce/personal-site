@@ -51,8 +51,8 @@
     margin: 32px 16px 64px 16px;
 }
 
-#hero-last-p {
-    margin-bottom: 48px;
+#get-in-touch {
+    margin-top: 48px;
 }
 
 #hero-button {
@@ -85,6 +85,10 @@
 
     #hero-button {
         font-size: $base-font-size * 1;
+    }
+
+    #hero-last-p {
+        display: none;
     }
 
 }
