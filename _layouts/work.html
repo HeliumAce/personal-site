@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<div class="work-page">
+  <nav class="work-nav">
+    <ul>
+      {% assign work_pages = site.pages | where: "layout", "work" | sort: "order" %}
+      {% for work in work_pages %}
+        <li {% if page.url == work.url %}class="active"{% endif %}>
+          <a href="{{ work.url }}">{{ work.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <div class="wrapper">
+    <article class="work-item">
+      <header class="work-header">
+        <h1>{{ page.title }}</h1>
+        {% if page.subtitle %}
+        <h2>{{ page.subtitle }}</h2>
+        {% endif %}
+      </header>
+
+      <div class="work-content">
+        {{ content }}
+      </div>
+    </article>
+  </div>
+</div> 

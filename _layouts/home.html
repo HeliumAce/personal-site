@@ -9,27 +9,36 @@ layout: default
   {%- endif -%}
 
   {{ content }}
+  
+<div class="work-showcase">
+    <div class="work-grid">
+      {% assign work_pages = site.pages | where: "layout", "work" | sort: "order" %}
+      {% for work in work_pages %}
+        <a href="{{ work.url }}" class="work-item">
+          <div class="work-content">
+            {% if work.logo %}
+              <img src="{{ work.logo }}" alt="{{ work.title }} logo" class="work-logo">
+            {% endif %}
+            <h2>{{ work.title }}</h2>
+            <p>{{ work.description }}</p>
+            {% if work.date-range %}
+              <p class="date-range">{{ work.date-range }}</p>
+            {% endif %}
+          </div>
 
- {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "My work & experience" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+          {% if work.highlights %}
+          <div class="work-highlights">
+            <h3>✨ Highlights</h3>
+            <ul>
+              {% for highlight in work.highlights %}
+                <li>{{ highlight }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
 
 </div>
