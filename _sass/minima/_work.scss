@@ -1,3 +1,15 @@
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .back-link {
   display: inline-block;
   padding: 1rem 0;
@@ -106,6 +118,26 @@
       overflow: hidden;
       display: flex;
       flex-direction: column;
+      position: relative;
+      z-index: 1;
+
+      min-height: 0;
+
+      &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        padding: 3px;
+        background: linear-gradient(-45deg, #279165, #d5628e, #5c91a3, #009973);
+        border-radius: 8px;
+        -webkit-mask: 
+          linear-gradient(#fff 0 0) content-box, 
+          linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        opacity: 0;
+        transition: opacity 0.4s ease-in-out;
+      }
 
       .work-header {
         padding: 24px 20px;
@@ -157,8 +189,14 @@
       }
 
       &:hover {
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        box-shadow: none;
+
+        &::before {
+          opacity: 1;
+        }
       }
+
+      transition: box-shadow 0.4s ease-in-out;
     }
   }
 } 
