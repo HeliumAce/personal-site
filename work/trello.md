@@ -6,10 +6,7 @@ order: 1
 description: "Head of Design"
 date-range: "2021-2023"
 logo: /assets/imgs/logos/trello.svg
-highlights: 
-  - Scaling teams and processes
-  - Cross-functional collaboration
-  - Product transformation
+highlights: Led a team of 25+ designers while operationalizing experience quality across the organization.
 ---
 
 # Trello Project
