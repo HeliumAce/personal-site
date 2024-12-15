@@ -5,7 +5,7 @@ permalink: /work/confluence/
 order: 3
 description: "Head of Design"
 date-range: "2017-2019"
-logo: /assets/imgs/logos/trello.svg
+logo: /assets/imgs/logos/confluence.svg
 highlights: Led a team of 25+ designers while operationalizing experience quality across the organization.
 ---
 

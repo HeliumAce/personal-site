@@ -11,6 +11,7 @@ layout: default
   {{ content }}
   
 <div class="work-showcase">
+  <h2>Recent work</h2>
     <div class="work-grid">
       {% assign work_pages = site.pages | where: "layout", "work" | sort: "order" %}
       {% for work in work_pages %}
@@ -20,7 +21,7 @@ layout: default
               <img src="{{ work.logo }}" alt="{{ work.title }} logo" class="work-logo">
             {% endif %}
             <div class="work-info">
-              <h2>{{ work.title }}</h2>
+              <p class="work-title">{{ work.title }}</p>
               <p class="work-meta">{{ work.description }}, {{ work.date-range }}</p>
             </div>
           </div>
@@ -31,6 +32,24 @@ layout: default
             <p>{{ work.highlights }}</p>
           </div>
           {% endif %}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="methods-showcase">
+    <h2>Methods & plays</h2>
+    <div class="methods-grid">
+      {% assign method_pages = site.pages | where: "layout", "method" | sort: "order" %}
+      {% for method in method_pages %}
+        <a href="{{ method.url }}" class="method-item" style="--method-color: {{ method.color }}">
+          <div class="method-header" style="background-color: {{ method.color }}">
+            <span class="method-icon">{% include icons/{{ method.icon }}.svg %}</span>
+          </div>
+          <div class="method-content">
+            <p class="method-title">{{ method.title }}</p>
+            <p class="method-description">{{ method.description }}</p>
+          </div>
         </a>
       {% endfor %}
     </div>
