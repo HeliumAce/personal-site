@@ -273,7 +273,7 @@
         position: absolute;
         inset: 0;
         padding: 3px;
-        background: #ccc;
+        background: var(--method-color);
         border-radius: 8px;
         -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
         mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -288,6 +288,7 @@
         height: 3rem;
         position: relative;
         display: block;
+        background-color: var(--method-color);
 
         .method-icon {
           position: absolute;
@@ -395,4 +396,43 @@
   display: flex;
   align-items: center;
   padding: 0 $spacing-unit;
+}
+
+// Footer styles
+.site-footer {
+  background: #000;
+  color: white;
+  padding: 40px 0;
+  height: 160px;
+  margin-top: 80px;
+
+  h3 {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0 0 16px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    opacity: 0.8;
+  }
+
+  a {
+    color: white;
+    text-decoration: underline;
+    
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+  }
 }

@@ -44,7 +44,7 @@ layout: default
   <div class="methods-grid">
     {% assign method_pages = site.pages | where: "layout", "method" | sort: "order" %}
     {% for method in method_pages %}
-      <a href="{{ method.url }}" class="method-item">
+      <a href="{{ method.url }}" class="method-item" style="--method-color: {{ method.color }}">
         <div class="method-header" style="background-color: {{ method.color }}">
           <span class="method-icon">
             <img src="{{ method.icon }}" alt="{{ method.title }} icon">
