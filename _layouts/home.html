@@ -44,10 +44,10 @@ layout: default
   <div class="methods-grid">
     {% assign method_pages = site.pages | where: "layout", "method" | sort: "order" %}
     {% for method in method_pages %}
-      <a href="{{ method.url }}" class="method-item" style="--method-color: {{ method.color }}">
+      <a href="{{ method.url }}" class="method-item">
         <div class="method-header" style="background-color: {{ method.color }}">
           <span class="method-icon">
-            <img src="{{ method.icon }}" alt="{{ method.title }} icon" style="filter: brightness(0) saturate(100%) {% if method.color contains '#3C958B' %}invert(56%) sepia(13%) saturate(1254%) hue-rotate(127deg) brightness(92%) contrast(86%){% elsif method.color contains '#CD668F' %}invert(54%) sepia(15%) saturate(1613%) hue-rotate(308deg) brightness(90%) contrast(89%){% elsif method.color contains '#AD7597' %}invert(55%) sepia(11%) saturate(1157%) hue-rotate(288deg) brightness(87%) contrast(89%){% endif %};">
+            <img src="{{ method.icon }}" alt="{{ method.title }} icon">
           </span>
         </div>
         <div class="method-content">
