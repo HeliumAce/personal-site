@@ -6,7 +6,7 @@ order: 2
 description: "Principle Designer"
 date-range: "2019-2021"
 logo: /assets/imgs/logos/atlassian.svg
-highlights: Led a team of 25+ designers while operationalizing experience quality across the organization.
+highlights: Delivered end-to-end experiences for Atlassian Free and Premium plans across Jira and Confluence.
 ---
 
 # Platform Project

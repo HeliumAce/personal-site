@@ -6,7 +6,7 @@ order: 3
 description: "Head of Design"
 date-range: "2017-2019"
 logo: /assets/imgs/logos/confluence.svg
-highlights: Led a team of 25+ designers while operationalizing experience quality across the organization.
+highlights: Scaled design team from 3 to 10+ designers while delivering a strategy and vision to reinvent Confluence.
 ---
 
 # Confluence Project
