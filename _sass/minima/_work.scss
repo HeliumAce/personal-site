@@ -24,26 +24,33 @@
 
 // Styles for individual work pages
 .work-container {
-  display: grid;
-  grid-template-columns: 200px minmax(auto, $content-width - 200px);
-  gap: 2rem;
-  max-width: $content-width;
-  margin: 0 auto;
-  padding: 0 $spacing-unit;
-  justify-content: center;
-}
-
-.work-page {
   position: relative;
   max-width: $content-width;
   margin: 0 auto;
   padding: 0 $spacing-unit;
 }
 
+.work-page {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.work-page img, .method-page img {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 24px;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
 .work-nav {
-  position: absolute;
-  left: $spacing-unit;
-  top: 2rem;
+  position: fixed;
+  left: calc(50% - 600px - 2rem);
+  top: 120px;
   width: 200px;
 
   ul {
@@ -70,6 +77,10 @@
     &:hover {
       color: #000;
     }
+  }
+
+  @media screen and (max-width: $content-width + 400px) {
+    display: none;
   }
 }
 
@@ -307,5 +318,42 @@
 
       transition: box-shadow 0.4s ease-in-out;
     }
+  }
+} 
+
+// Lightbox styles
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  
+  &.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    max-height: 90vh;
+    max-width: 90vw;
+    object-fit: contain;
+  }
+
+  .lightbox-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 1rem;
+    
+    &.prev { left: 1rem; }
+    &.next { right: 1rem; }
   }
 } 

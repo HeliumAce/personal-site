@@ -9,8 +9,5 @@ logo: /assets/imgs/logos/trello.svg
 highlights: Led a team of 25+ designers while operationalizing experience quality across the organization.
 ---
 
-# Trello Project
-
-{% if page.logo %}
-<img src="{{ page.logo }}" alt="{{ page.title }} logo" class="work-logo">
-{% endif %}
+<img src="/assets/work/trello/Trello01.png" alt="Trello team">
+<img src="/assets/work/trello/Trello02.png" alt="Trello highlights">
