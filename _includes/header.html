@@ -1,11 +1,13 @@
-<header class="site-header" role="banner">
-  <div class="wrapper">
-    {%- if page.layout == "work" -%}
-      <a href="/" class="back-link">← Back</a>
-    {%- endif -%}
-    
-    {% if page.layout == "home" %}
-      {% include hero.html %}
-    {% endif %}
-  </div>
-</header>
+{% if page.layout == "work" or page.layout == "method" %}
+  <!-- No header for work/method pages since they use page-header.html -->
+{% else %}
+  <header class="site-header" role="banner">
+    <div class="wrapper">
+      {% if page.layout == "home" %}
+        {% include hero.html %}
+      {% else %}
+        <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      {% endif %}
+    </div>
+  </header>
+{% endif %}

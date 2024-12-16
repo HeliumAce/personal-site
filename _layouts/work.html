@@ -1,22 +1,35 @@
 ---
 layout: default
 ---
+{% include page-header.html %}
 <div class="work-page">
   <nav class="work-nav">
+    <h3>Work</h3>
     <ul>
-      <li><h3>Work</h3></li>
       {% assign work_pages = site.pages | where: "layout", "work" | sort: "order" %}
       {% for work in work_pages %}
         <li {% if page.url == work.url %}class="active"{% endif %}>
-          <a href="{{ work.url }}">{{ work.title }}</a>
+          <a href="{{ work.url }}">
+            {% if page.url == work.url %}
+              <img src="/assets/imgs/favicon.png" alt="" class="page-icon">
+            {% endif %}
+            {{ work.title }}
+          </a>
         </li>
       {% endfor %}
-      
-      <li><h3>Methods</h3></li>
+    </ul>
+    
+    <h3>Methods</h3>
+    <ul>
       {% assign method_pages = site.pages | where: "layout", "method" | sort: "order" %}
       {% for method in method_pages %}
         <li {% if page.url == method.url %}class="active"{% endif %}>
-          <a href="{{ method.url }}">{{ method.title }}</a>
+          <a href="{{ method.url }}">
+            {% if page.url == method.url %}
+              <img src="/assets/imgs/favicon.png" alt="" class="page-icon">
+            {% endif %}
+            {{ method.title }}
+          </a>
         </li>
       {% endfor %}
     </ul>
