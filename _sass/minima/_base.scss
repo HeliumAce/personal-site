@@ -124,6 +124,16 @@ a {
   }
 }
 
+.back-link {
+  color: white;
+  text-decoration: none;
+
+  &:visited {
+    color: white;
+    text-decoration: none;
+  }
+}
+
 
 /**
  * Blockquotes
