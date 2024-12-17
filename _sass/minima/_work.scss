@@ -168,7 +168,7 @@
         position: absolute;
         inset: 0;
         padding: 3px;
-        background: linear-gradient(-45deg, #279165, #d5628e, #5c91a3, #009973);
+        background: linear-gradient(-45deg, #279165, #FFE26A, #d5628e, #5c91a3, #009973);
         background-size: 400% 400%;
         border-radius: 8px;
         -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -389,9 +389,9 @@
   left: 0;
   right: 0;
   height: 60px;
-  background: linear-gradient(-45deg, #279165, #d5628e, #5c91a3, #009973);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+    background: linear-gradient(-45deg, #279165, #5c91a3, #009973);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
   z-index: 100;
   display: flex;
   align-items: center;
@@ -434,5 +434,36 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 40px;
+  }
+}
+
+.page-work-header {
+  margin: -1rem 0 4rem;
+
+  .header-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .page-work-logo {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+  }
+
+  .page-work-info {
+    h1 {
+      font-size: 3rem;
+      line-height: 1.1;
+      margin: 0 0 2px;
+    }
+
+    .page-work-meta {
+      font-size: 1.25rem;
+      color: #666;
+      margin: 0;
+      line-height: 0.5;
+    }
   }
 }
