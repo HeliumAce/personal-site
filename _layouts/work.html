@@ -11,7 +11,7 @@ layout: default
         <li {% if page.url == work.url %}class="active"{% endif %}>
           <a href="{{ work.url }}">
             {% if page.url == work.url %}
-              <img src="/assets/imgs/favicon.png" alt="" class="page-icon">
+              <img src="/assets/imgs/nav-item.png" alt="" class="page-icon">
             {% endif %}
             {{ work.title }}
           </a>
@@ -26,7 +26,7 @@ layout: default
         <li {% if page.url == method.url %}class="active"{% endif %}>
           <a href="{{ method.url }}">
             {% if page.url == method.url %}
-              <img src="/assets/imgs/favicon.png" alt="" class="page-icon">
+              <img src="/assets/imgs/nav-item.png" alt="" class="page-icon">
             {% endif %}
             {{ method.title }}
           </a>
@@ -44,8 +44,8 @@ layout: default
           {% endif %}
           <div class="page-work-info">
             <h1>{{ page.title }}</h1>
-            <p class="page-work-meta">{{ page.role }}, {{ page.date-range }}</p>
           </div>
+          <p class="page-work-meta">{{ page.role }}<br>{{ page.date-range }}</p>
         </div>
       </header>
 

@@ -16,9 +16,16 @@ During my time at Trello, I had the privilege of leading the design organization
 <img src="/assets/work/trello/Trello01.png" alt="Trello highlights">
 
 ## Case studies
+The following are excerpts from case studies I worked on during my time at Trello. Get in touch if you'd like to go deeper into any of these projects.
 
-### Trello 2.0
+### Operationalizing experience quality
+During my time leading design on Trello, I drove an effort to operationalize experience quality across the product. 
 
-### Trello 3.0
+<img src="/assets/work/trello/Trello02.png" alt="Trello quality objective">
+<img src="/assets/work/trello/Trello03.png" alt="Trello quality key results">
 
-### Trello 4.0
+Our key results were focused on the following:
+1. Customer satisfaction
+2. Reliability & performance
+3. Accessibility
+4. Proud to ship
