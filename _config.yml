@@ -56,3 +56,11 @@ collections:
   work:
     output: true
     sort_by: order
+
+navigation:
+  - group: Work
+    layout: work
+    sort: order
+  - group: Methods
+    layout: method
+    sort: order

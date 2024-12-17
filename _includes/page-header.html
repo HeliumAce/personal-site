@@ -7,23 +7,21 @@
   </a>
 
   <div class="mobile-nav">
-    {% assign sorted_pages = site.pages | where_exp: "item", "item.layout == 'work' or item.layout == 'method'" | sort: "order" %}
-    {% for item in sorted_pages %}
+    {% assign work_pages = site.pages | where: "layout", "work" | sort: "order" %}
+    {% assign method_pages = site.pages | where: "layout", "method" | sort: "order" %}
+    {% assign all_pages = work_pages | concat: method_pages %}
+    
+    {% for item in all_pages %}
       {% if item.url == page.url %}
         {% assign current_index = forloop.index0 %}
-        {% assign prev_index = current_index | minus: 1 %}
-        {% assign next_index = current_index | plus: 1 %}
-        
-        {% if prev_index >= 0 %}
-          {% assign prev_page = sorted_pages[prev_index] %}
-          <a href="{{ prev_page.url }}" class="nav-link prev-link">← {{ prev_page.title }}</a>
+        {% if current_index > 0 %}
+          {% assign prev = all_pages[current_index | minus: 1] %}
+          <a href="{{ prev.url | relative_url }}" class="nav-link prev-link">← {{ prev.title }}</a>
         {% endif %}
-        
-        {% if next_index < sorted_pages.size %}
-          {% assign next_page = sorted_pages[next_index] %}
-          <a href="{{ next_page.url }}" class="nav-link next-link">{{ next_page.title }} →</a>
+        {% if current_index < all_pages.size | minus: 1 %}
+          {% assign next = all_pages[current_index | plus: 1] %}
+          <a href="{{ next.url | relative_url }}" class="nav-link next-link">{{ next.title }} →</a>
         {% endif %}
-        
         {% break %}
       {% endif %}
     {% endfor %}
