@@ -61,6 +61,6 @@ navigation:
   - group: Work
     layout: work
     sort: order
-  - group: Methods
+  - group: Practices
     layout: method
     sort: order

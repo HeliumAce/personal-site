@@ -8,21 +8,32 @@ date-range: "2021-2023"
 logo: /assets/imgs/logos/trello.svg
 highlights: Led a team of 25+ designers while operationalizing experience quality across the organization.
 ---
+## Snapshot
 
-## Context
+### ✨ Highlights
+- Grew design from ~12 to 25+ designers and managers
+- Developed a design team charter, purpose, and values
+- Operationalized experience quality across all squads and teams
+- Delivered a vision for the future of Trello
 
-During my time at Trello, I had the privilege of leading the design organization through a period of significant growth and transformation. Our team focused on evolving the product while maintaining its core simplicity and ease of use that millions of users had come to love.
+### 🎯 Impact
+- Increased CSAT from 86% to 89%
+- Increased our internal Proud to Ship metric from 45% to 55%
 
-<img src="/assets/work/trello/Trello01.png" alt="Trello highlights">
+---
 
 ## Case studies
-The following are excerpts from case studies I worked on during my time at Trello. Get in touch if you'd like to go deeper into any of these projects.
+
+> 📫 Want to go deeper on a case study? <a href="mailto:liam@liamgreig.com">Get in touch</a>.
 
 ### Operationalizing experience quality
 During my time leading design on Trello, I drove an effort to operationalize experience quality across the product. 
 
 <img src="/assets/work/trello/Trello02.png" alt="Trello quality objective">
+*Our quality objective focused on delivering consistent, reliable experiences*
+
 <img src="/assets/work/trello/Trello03.png" alt="Trello quality key results">
+*Key results were measured through CSAT, performance metrics, and accessibility scores*
 
 Our key results were focused on the following:
 1. Customer satisfaction

@@ -35,12 +35,11 @@ layout: default
         </a>
       {% endfor %}
     </div>
-    <p><a target="_blank" title="Email Liam" href="mailto:liam@liamgreig.com">Get in touch</a> to to learn more about my recent work and case studies.</p>
   </div>
 </div>
 
 <div class="methods-showcase">
-  <h2>Snippets</h2>
+  <h2>Practices</h2>
   <div class="methods-grid">
     {% assign method_pages = site.pages | where: "layout", "method" | sort: "order" %}
     {% for method in method_pages %}
