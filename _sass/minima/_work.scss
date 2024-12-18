@@ -221,6 +221,8 @@
         background: #F0F8FF;
         padding: 12px 20px 20px 20px;
         box-shadow: inset 0 1px 0 rgba(0,0,0,0.1);
+        margin-top: auto;
+        flex-grow: 1;
 
         h3 {
           font-size: 16px;
@@ -406,6 +408,21 @@
     &:hover {
       opacity: 1;
     }
+  }
+
+  .lightbox-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .lightbox-caption {
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    max-width: 80vw;
+    opacity: 0.8;
   }
 } 
 

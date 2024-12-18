@@ -159,6 +159,13 @@ blockquote {
   > :last-child {
     margin-bottom: 0;
   }
+
+  &.coming-soon {
+    background: #fff9c5;
+    text-align: center;
+    margin: 4rem auto;
+    max-width: 400px;
+  }
 }
 
 

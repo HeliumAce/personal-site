@@ -7,4 +7,4 @@ color: "#AD7597"
 order: 3
 ---
 
-# Design gardens 
+> 🚧 This page is in progress. Check back again soon. 🚧

@@ -1,7 +1,10 @@
 <div class="lightbox">
   <button class="lightbox-close">×</button>
   <div class="lightbox-nav prev">←</div>
-  <img src="" alt="">
+  <div class="lightbox-content">
+    <img src="" alt="">
+    <em class="lightbox-caption"></em>
+  </div>
   <div class="lightbox-nav next">→</div>
 </div>
 
@@ -9,7 +12,8 @@
 document.addEventListener('DOMContentLoaded', function() {
   const lightbox = document.querySelector('.lightbox');
   const lightboxImg = lightbox.querySelector('img');
-  const images = document.querySelectorAll('.work-page img, .method-page img');
+  const lightboxCaption = lightbox.querySelector('.lightbox-caption');
+  const images = document.querySelectorAll('.work-content img, .method-content img');
   let currentIndex = 0;
 
   images.forEach((img, index) => {
@@ -33,8 +37,18 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   function showImage(index) {
-    lightboxImg.src = images[index].src;
-    lightboxImg.alt = images[index].alt;
+    const img = images[index];
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
+    
+    // Get caption from the em element that follows the image
+    const caption = img.nextElementSibling;
+    if (caption && caption.tagName.toLowerCase() === 'em') {
+      lightboxCaption.textContent = caption.textContent;
+      lightboxCaption.style.display = 'block';
+    } else {
+      lightboxCaption.style.display = 'none';
+    }
   }
 });
 </script> 

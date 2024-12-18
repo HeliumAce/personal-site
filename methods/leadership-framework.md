@@ -7,4 +7,4 @@ color: "#5B91A2"
 order: 4
 ---
 
-Design leadership framework 
+> 🚧 This page is in progress. Check back again soon. 🚧

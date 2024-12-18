@@ -3,8 +3,10 @@ layout: work
 title: "Bitbucket"
 permalink: /work/bitbucket/
 order: 4
-role: "Design Manager"
+role: "Senior Designer"
 date-range: "2015-2017"
-logo: /assets/imgs/logos/trello.svg
-highlights: Led a small and scrappy team across multiple geos and timezones towards a more usable and accessible Bitbucket.
+logo: /assets/imgs/logos/bitbucket.svg
+highlights: Designed and delivered key features for Bitbucket Cloud including pull requests and code review.
 ---
+
+> 🚧 This page is in progress. Check back again soon. 🚧
