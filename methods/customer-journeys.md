@@ -2,7 +2,7 @@
 layout: method
 title: "Customer journeys"
 description: "..."
-icon: /assets/imgs/icons/....svg
+icon: /assets/imgs/icons/icon-customerjourneys.svg
 color: "#B47C5F"
 order: 5
 ---

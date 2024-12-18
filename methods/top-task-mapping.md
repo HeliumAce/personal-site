@@ -2,8 +2,8 @@
 layout: method
 title: "Top task mapping"
 description: "..."
-icon: /assets/imgs/icons/....svg
-color: "#834673"
+icon: /assets/imgs/icons/icon-toptasks.svg
+color: "#CD668F"
 order: 2
 ---
 

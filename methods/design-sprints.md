@@ -2,8 +2,8 @@
 layout: method
 title: "Design sprints"
 description: "..."
-icon: /assets/imgs/icons/....svg
-color: "#CD668F"
+icon: /assets/imgs/icons/icon-designsprints.svg
+color: "#AD7597"
 order: 6
 ---
 

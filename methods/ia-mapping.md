@@ -2,8 +2,8 @@
 layout: method
 title: "IA mapping"
 description: "..."
-icon: /assets/imgs/icons/....svg
-color: "#3C958B"
+icon: /assets/imgs/icons/icon-iamapping.svg
+color: "#459A73"
 order: 7
 ---
 
