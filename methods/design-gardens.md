@@ -1,10 +1,10 @@
 ---
 layout: method
 title: "Design gardens"
-description: "Planting and nurturing a set of tasks and goals leading towards design team maturity."
+description: "Achieving design team maturity through shared ownership and accountability of goals and outcomes."
 icon: /assets/imgs/icons/design-gardens.svg
-color: "#AD7597"
-order: 3
+color: "#C8B86A"
+order: 4
 ---
 
 > 🚧 This page is in progress. Check back again soon. 🚧

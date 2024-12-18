@@ -1,10 +1,10 @@
 ---
 layout: method
-title: "Team charter"
-description: "One of my all time favorite workshops designed to define a team's purpose and values."
+title: "Team charter workshop"
+description: "Defining a team's purpose and values while fostering a shared understanding and sense ofconnection."
 icon: /assets/imgs/icons/team-charter.svg
-color: "#CD668F"
-order: 2
+color: "#4A7360"
+order: 3
 ---
 
 > 🚧 This page is in progress. Check back again soon. 🚧

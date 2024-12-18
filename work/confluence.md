@@ -6,7 +6,7 @@ order: 3
 role: "Head of Design"
 date-range: "2017-2019"
 logo: /assets/imgs/logos/confluence.svg
-highlights: Led design for Confluence Cloud while scaling the team from 4 to 12 designers.
+highlights: Grew design from 3 to 12+ designers while reinventing Confluence Cloud as a modern, collaborative workspace.
 ---
 
 > 🚧 This page is in progress. Check back again soon. 🚧
