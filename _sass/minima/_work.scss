@@ -20,7 +20,7 @@
 
 .work-page {
   position: relative;
-  max-width: 800px;
+  max-width: 880px;
   margin: 0 auto;
   padding-top: 80px;
 }
@@ -38,7 +38,7 @@
 
 .work-nav {
   position: fixed;
-  left: calc(50% - 600px - 2rem);
+  left: calc(50% - 660px - 2rem);
   top: 120px;
   width: 200px;
   transition: transform 0.3s ease, opacity 0.3s ease;
@@ -116,7 +116,7 @@
 }
 
 .work-item {
-  max-width: 800px;
+  max-width: 880px;
   margin: 0 auto;
 
   .work-header {
