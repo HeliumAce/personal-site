@@ -1,7 +1,7 @@
 ---
 layout: method
-title: "Customer journeys"
-description: "..."
+title: "Journey mapping"
+description: "Align teams and connect with customer pain points and opportunities."
 icon: /assets/imgs/icons/icon-customerjourneys.svg
 color: "#B47C5F"
 order: 5

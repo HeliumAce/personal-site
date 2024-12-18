@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+<style>
+  .page-header {
+    background: {{ page.color }};
+  }
+</style>
+
 {% include page-header.html %}
 <div class="work-page">
   <nav class="work-nav">
@@ -11,7 +17,7 @@ layout: default
         <li {% if page.url == work.url %}class="active"{% endif %}>
           <a href="{{ work.url }}">
             {% if page.url == work.url %}
-              <img src="/assets/imgs/favicon.png" alt="" class="page-icon">
+              <img src="/assets/imgs/nav-item.png" alt="" class="page-icon">
             {% endif %}
             {{ work.title }}
           </a>
@@ -19,14 +25,14 @@ layout: default
       {% endfor %}
     </ul>
     
-    <h3>Methods</h3>
+    <h3>Practices</h3>
     <ul>
       {% assign method_pages = site.pages | where: "layout", "method" | sort: "order" %}
       {% for method in method_pages %}
         <li {% if page.url == method.url %}class="active"{% endif %}>
           <a href="{{ method.url }}">
             {% if page.url == method.url %}
-              <img src="/assets/imgs/favicon.png" alt="" class="page-icon">
+              <img src="/assets/imgs/nav-item.png" alt="" class="page-icon">
             {% endif %}
             {{ method.title }}
           </a>
@@ -37,8 +43,15 @@ layout: default
 
   <div class="wrapper">
     <article class="work-item">
-      <header class="work-header">
-        <h1>{{ page.title }}</h1>
+      <header class="page-work-header">
+        <div class="header-content">
+          {% if page.icon %}
+            <img src="{{ page.icon }}" alt="{{ page.title }} icon" class="page-work-logo">
+          {% endif %}
+          <div class="page-work-info">
+            <h1>{{ page.title }}</h1>
+          </div>
+        </div>
       </header>
 
       <div class="work-content">
