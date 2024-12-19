@@ -1,7 +1,7 @@
 ---
 layout: method
 title: "Design sprints"
-description: "Structured workshops to ideate and validate ideas."
+description: "Structured 3-day or 5-day workshops designed to inspire teams and validate new ideas and prototypes."
 icon: /assets/imgs/icons/icon-designsprints.svg
 color: "#AD7597"
 order: 6

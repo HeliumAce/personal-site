@@ -20,7 +20,7 @@ highlights: Led a team of 25+ designers while operationalizing experience qualit
 ### 🎯 Impact
 - Increased CSAT from 86% to 89%
 - Increased our internal Proud to Ship metric from 45% to 55%
-- Made modest revenue gains through the intoduction of Premium and Enterprise plans
+- Made modest revenue gains through the introduction of Premium and Enterprise plans
 
 ---
 
