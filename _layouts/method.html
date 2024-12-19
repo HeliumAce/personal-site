@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="method-page" style="--method-color: {{ page.color }}">
+  {% include page-header.html %}
+  {% include side-nav.html %}
+
+  <div class="wrapper">
+    <article class="work-item">
+      <header class="page-work-header">
+        <div class="header-content">
+          {% if page.icon %}
+            <img src="{{ page.icon }}" alt="{{ page.title }} icon" class="page-work-logo">
+          {% endif %}
+          <div class="page-work-info">
+            <h1>{{ page.title }}</h1>
+          </div>
+        </div>
+      </header>
+
+      <div class="work-content">
+        {{ content }}
+      </div>
+    </article>
+  </div>
+</div> 

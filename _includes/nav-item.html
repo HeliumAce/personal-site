@@ -1,0 +1,6 @@
+<a href="{{ include.item.url }}">
+  {% if page.url == include.item.url %}
+    <img src="/assets/imgs/nav-item.png" alt="" class="page-icon">
+  {% endif %}
+  {{ include.item.title }}
+</a> 

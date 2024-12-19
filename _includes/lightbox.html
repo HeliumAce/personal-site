@@ -1,0 +1,54 @@
+<div class="lightbox">
+  <button class="lightbox-close">×</button>
+  <div class="lightbox-nav prev">←</div>
+  <div class="lightbox-content">
+    <img src="" alt="">
+    <em class="lightbox-caption"></em>
+  </div>
+  <div class="lightbox-nav next">→</div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const lightbox = document.querySelector('.lightbox');
+  const lightboxImg = lightbox.querySelector('img');
+  const lightboxCaption = lightbox.querySelector('.lightbox-caption');
+  const images = document.querySelectorAll('.work-content img, .method-content img');
+  let currentIndex = 0;
+
+  images.forEach((img, index) => {
+    img.addEventListener('click', () => {
+      currentIndex = index;
+      showImage(currentIndex);
+      lightbox.classList.add('active');
+    });
+  });
+
+  lightbox.addEventListener('click', (e) => {
+    if (e.target.classList.contains('prev')) {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      showImage(currentIndex);
+    } else if (e.target.classList.contains('next')) {
+      currentIndex = (currentIndex + 1) % images.length;
+      showImage(currentIndex);
+    } else if (e.target === lightbox || e.target.classList.contains('lightbox-close')) {
+      lightbox.classList.remove('active');
+    }
+  });
+
+  function showImage(index) {
+    const img = images[index];
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
+    
+    // Get caption from the em element that follows the image
+    const caption = img.nextElementSibling;
+    if (caption && caption.tagName.toLowerCase() === 'em') {
+      lightboxCaption.textContent = caption.textContent;
+      lightboxCaption.style.display = 'block';
+    } else {
+      lightboxCaption.style.display = 'none';
+    }
+  }
+});
+</script> 

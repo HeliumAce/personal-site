@@ -59,6 +59,14 @@ img {
   vertical-align: middle;
 }
 
+img + em {
+  display: block;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+}
+
 
 
 /**
@@ -124,20 +132,39 @@ a {
   }
 }
 
+.back-link {
+  color: white;
+  text-decoration: none;
+
+  &:visited {
+    color: white;
+    text-decoration: none;
+  }
+}
+
 
 /**
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit * 0.5;
-  @include relative-font-size(1.125);
-  letter-spacing: -1px;
-  font-style: italic;
+  background: #eaf6fe;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-left: none;
+  font-style: normal;
+  letter-spacing: normal;
+  color: inherit;
 
   > :last-child {
     margin-bottom: 0;
+  }
+
+  &.coming-soon {
+    background: #fff9c5;
+    text-align: center;
+    margin: 4rem auto;
+    max-width: 400px;
   }
 }
 
@@ -250,5 +277,46 @@ table {
   }
   td {
     border: 1px solid $grey-color-light;
+  }
+}
+
+h2 {
+  font-size: 2rem;  // 32px
+  font-weight: 200;  // Light weight
+  margin-bottom: 1.5rem;
+}
+
+/**
+ * Horizontal Rules
+ */
+hr {
+  margin: 2rem 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+/**
+ * Callouts
+ */
+.callout {
+  background: #f5f8fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  &.info {
+    background: #f5f8fa;
+  }
+
+  &.success {
+    background: #f3f9f4;
+  }
+
+  &.warning {
+    background: #fff8f0;
   }
 }
