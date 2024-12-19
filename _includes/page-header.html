@@ -1,29 +1,37 @@
 <div class="page-header">
   <a href="/" class="back-link">
-    <svg><!-- home icon --></svg>
+    <img src="/assets/imgs/icons/icon-home.svg" alt="" width="16" height="16">
     Home
   </a>
 
-  <div class="mobile-nav">
-    {% assign work_pages = site.pages | where: "layout", "work" | sort: "order" %}
-    {% assign method_pages = site.pages | where: "layout", "method" | sort: "order" %}
-    {% assign all_pages = work_pages | concat: method_pages %}
-    
-    {% for p in all_pages %}
-      {% if p.url == page.url %}
-        {% assign current_index = forloop.index0 %}
-        {% assign prev_index = current_index | minus: 1 %}
-        {% assign next_index = current_index | plus: 1 %}
-        
-        {% if prev_index >= 0 %}
-          <a href="{{ all_pages[prev_index].url }}" class="nav-link prev-link">← {{ all_pages[prev_index].title }}</a>
+  <div class="page-nav">
+    {% if page.layout == "work" or page.layout == "method" %}
+      {% assign work_pages = site.pages | where: "layout", "work" | sort: "order" %}
+      {% assign method_pages = site.pages | where: "layout", "method" | sort: "order" %}
+      {% assign all_pages = work_pages | concat: method_pages %}
+      
+      {% for p in all_pages %}
+        {% if p.url == page.url %}
+          {% assign current_index = forloop.index0 %}
+          {% assign prev_index = current_index | minus: 1 %}
+          {% assign next_index = current_index | plus: 1 %}
+          
+          {% if prev_index >= 0 %}
+            <a href="{{ all_pages[prev_index].url }}" class="nav-link prev-link">
+              <img src="/assets/imgs/icons/icon-previous.svg" alt="" width="16" height="16">
+              <span class="nav-text"><span>{{ all_pages[prev_index].title }}</span></span>
+            </a>
+          {% endif %}
+          
+          {% if next_index < all_pages.size %}
+            <a href="{{ all_pages[next_index].url }}" class="nav-link next-link">
+              <span class="nav-text"><span>{{ all_pages[next_index].title }}</span></span>
+              <img src="/assets/imgs/icons/icon-next.svg" alt="" width="16" height="16">
+            </a>
+          {% endif %}
+          {% break %}
         {% endif %}
-        
-        {% if next_index < all_pages.size %}
-          <a href="{{ all_pages[next_index].url }}" class="nav-link next-link">{{ all_pages[next_index].title }} →</a>
-        {% endif %}
-        {% break %}
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
+    {% endif %}
   </div>
 </div> 
