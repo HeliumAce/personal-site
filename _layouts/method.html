@@ -1,14 +1,8 @@
 ---
 layout: default
 ---
-<style>
-  .page-header {
-    background: {{ page.color }};
-  }
-</style>
-
-{% include page-header.html %}
-<div class="work-page">
+<div class="method-page" style="--method-color: {{ page.color }}">
+  {% include page-header.html %}
   <nav class="work-nav">
     <h3>Work</h3>
     <ul>
