@@ -26,7 +26,7 @@ highlights: Led a team of 25+ designers while operationalizing experience qualit
 
 ## Case studies
 
-> 📫 Want to learn more about my work or go deeper on a case study? <a href="mailto:liam@liamgreig.com">Get in touch</a>.
+> 📫 Want to learn more about my work or go deeper on a case study? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
 
 ### 1. Operationalizing experience quality
 I led an effort to operationalize experience quality across Trello. This included clearly defining experience quality OKRs, setting expectations for squads and teams, and delegating ownership of key results across the orgainzation. This effort directly contributed to a 3% increase in CSAT and a 10% increase of our internal Proud to Ship metric.
@@ -81,5 +81,5 @@ Text goes here
 
 <img src="/assets/work/trello/Trello14.png" alt="Design leadership roles & responsibilities">
 
-> 📫 Want to learn more about my work or go deeper on a case study? <a href="mailto:liam@liamgreig.com">Get in touch</a>.
+> 📫 Want to learn more about my work or go deeper on a case study? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
 
