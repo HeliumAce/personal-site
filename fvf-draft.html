@@ -1,0 +1,161 @@
+<style>
+.team-picker {
+  max-width: 500px;
+  margin: 120px auto 80px;
+  text-align: center;
+  padding: 0 20px;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.team-picker h1 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #111;
+  font-family: inherit;
+}
+
+.team-picker label {
+  display: block;
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 1rem;
+  font-family: inherit;
+  text-align: left;
+}
+
+.team-picker input {
+  width: 100%;
+  padding: 16px;
+  font-size: 1.1rem;
+  font-family: inherit;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  transition: border-color 0.2s ease;
+}
+
+.team-picker input:focus {
+  outline: none;
+  border-color: #279165;
+}
+
+.team-picker button {
+  background: linear-gradient(-45deg, #279165, #5c91a3, #009973);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  font-family: inherit;
+}
+
+.team-picker button:hover {
+  opacity: 0.9;
+}
+
+.result {
+  margin-top: 32px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: none;
+  padding: 24px;
+  border-radius: 8px;
+  background: #f8f9fa;
+  font-family: inherit;
+}
+
+.result.leafs {
+  color: #00205B;
+  background: #f0f7ff;
+}
+
+.result.avs {
+  color: #6F263D;
+  background: #fff5f7;
+}
+
+.result.bozo {
+  color: #666;
+  background: #f8f9fa;
+}
+
+.fan-image {
+  margin-top: 24px;
+  max-width: 100%;
+  border-radius: 12px;
+  display: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+</style>
+
+<div class="team-picker">
+  <h1>FvF25 Draft</h1>
+  <label for="name">Enter your first name:</label>
+  <input type="text" id="name" placeholder="eg Gary">
+  <button onclick="checkTeam()">Reveal Team</button>
+  
+  <div id="leafsResult" class="result leafs">You're on the Toronto Maple Leafs! 🍁</div>
+  <div id="avsResult" class="result avs">You're on the Colorado Avalanche! ❄️</div>
+  <div id="bozoResult" class="result bozo">Nice try bozo 🤡</div>
+  
+  <img id="fanImage" class="fan-image" alt="Fan image">
+</div>
+
+<script>
+const leafsPlayers = ['Bryan', 'Joshua', 'Mike', 'Shaun', 'Oli', 'Matt'];
+const avsPlayers = ['Chris', 'Wes', 'Casey', 'Liam', 'Karl'];
+
+function checkTeam() {
+  const name = document.getElementById('name').value.trim();
+  const fanImage = document.getElementById('fanImage');
+  const revealedName = localStorage.getItem('fvf25_name');
+  
+  // Hide all results first
+  document.querySelectorAll('.result').forEach(el => el.style.display = 'none');
+  fanImage.style.display = 'none';
+  
+  // If they've already revealed a different valid name, show bozo
+  if (revealedName && revealedName !== name && 
+      (leafsPlayers.includes(name) || avsPlayers.includes(name))) {
+    document.getElementById('bozoResult').style.display = 'block';
+    fanImage.src = '/assets/imgs/fvf/bozo.jpg';
+    fanImage.style.display = 'block';
+    return;
+  }
+  
+  // Show appropriate result and image
+  if (leafsPlayers.includes(name)) {
+    document.getElementById('leafsResult').style.display = 'block';
+    fanImage.src = '/assets/imgs/fvf/leafs.jpg';
+    localStorage.setItem('fvf25_name', name);
+  } else if (avsPlayers.includes(name)) {
+    document.getElementById('avsResult').style.display = 'block';
+    fanImage.src = '/assets/imgs/fvf/avs.jpg';
+    localStorage.setItem('fvf25_name', name);
+  } else {
+    document.getElementById('bozoResult').style.display = 'block';
+    fanImage.src = '/assets/imgs/fvf/bozo.jpg';
+  }
+  
+  fanImage.style.display = 'block';
+}
+
+// Allow Enter key to submit
+document.getElementById('name').addEventListener('keypress', function(e) {
+  if (e.key === 'Enter') {
+    checkTeam();
+  }
+});
+</script> 
