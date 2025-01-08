@@ -17,15 +17,15 @@
           {% assign next_index = current_index | plus: 1 %}
           
           {% if prev_index >= 0 %}
-            <a href="{{ all_pages[prev_index].url }}" class="nav-link prev-link">
+            <a href="{{ all_pages[prev_index].url }}" class="nav-link prev-link" data-title="{{ all_pages[prev_index].title }}">
               <img src="/assets/imgs/icons/icon-previous.svg" alt="" width="16" height="16">
-              <span class="nav-text"><span>{{ all_pages[prev_index].title }}</span></span>
+              <span class="nav-text">Previous</span>
             </a>
           {% endif %}
           
           {% if next_index < all_pages.size %}
-            <a href="{{ all_pages[next_index].url }}" class="nav-link next-link">
-              <span class="nav-text"><span>{{ all_pages[next_index].title }}</span></span>
+            <a href="{{ all_pages[next_index].url }}" class="nav-link next-link" data-title="{{ all_pages[next_index].title }}">
+              <span class="nav-text">Next</span>
               <img src="/assets/imgs/icons/icon-next.svg" alt="" width="16" height="16">
             </a>
           {% endif %}

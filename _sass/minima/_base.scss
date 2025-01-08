@@ -178,7 +178,7 @@ code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: #fafafa;
 }
 
 code {
@@ -284,6 +284,13 @@ h2 {
   font-size: 2rem;  // 32px
   font-weight: 200;  // Light weight
   margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;  // 32px
+  font-weight: 400;  // Light weight
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 /**
