@@ -530,11 +530,11 @@
         }
       }
 
-      // Tooltip styles
       &::after {
         content: attr(data-title);
         position: absolute;
         bottom: -48px;
+        right: 0;
         padding: 8px 12px;
         background: rgba(0,0,0,0.8);
         color: white;
@@ -547,18 +547,6 @@
         transition-delay: 0.5s;
       }
 
-      &.prev-link::after {
-        right: 0;  // Right align for previous button
-      }
-
-      &.next-link::after {
-        right: 0;  // Right align for next button
-      }
-
-      &:not(:last-child) {
-        margin-right: 8px;
-      }
-
       img {
         opacity: 0.9;
       }
@@ -569,21 +557,6 @@
       
       .nav-link {
         padding: 4px;
-        
-        .nav-text {
-          &::before {
-            content: "Prev";
-          }
-        }
-        
-        &.next-link .nav-text::before {
-          content: "Next";
-        }
-        
-        // Hide the original title text
-        .nav-text span {
-          display: none;
-        }
       }
     }
   }
