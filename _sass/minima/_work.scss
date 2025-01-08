@@ -51,12 +51,12 @@
   }
 
   h3 {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: #999;
-    margin: 2rem 0 1rem;
+    margin: 1.5rem 0 0.75rem;
     
     &:first-child {
       margin-top: 0;
@@ -64,8 +64,8 @@
   }
 
   .page-icon {
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
     margin-right: 8px;
     vertical-align: middle;
     opacity: 0.6;
@@ -79,7 +79,7 @@
   }
 
   li {
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     position: relative;
     
     &.active {
@@ -90,7 +90,7 @@
       .page-icon {
         opacity: 1;
         position: absolute;
-        left: -24px;
+        left: -20px;
         top: 50%;
         transform: translateY(-50%);
       }
@@ -100,7 +100,7 @@
   a {
     color: #666;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.875rem;
     transition: color 0.2s ease;
     
     &:hover {
@@ -471,24 +471,56 @@
     align-items: center;
 
     .nav-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       color: white;
       text-decoration: none;
       font-size: 0.875rem;
-      font-weight: 400;
-      opacity: 0.9;
       padding: 8px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      transition: opacity 0.2s ease;
-      
-      .nav-text {
-        display: inline-block;
-        vertical-align: middle;
-      }
+      border-radius: 4px;
+      transition: all 0.2s ease;
+      position: relative;
 
       &:hover {
-        opacity: 1;
+        background: rgba(255,255,255,0.1);
+        
+        &::after {
+          opacity: 1;
+        }
+      }
+
+      // Tooltip styles
+      &::after {
+        content: attr(data-title);
+        position: absolute;
+        bottom: -48px;
+        padding: 8px 12px;
+        background: rgba(0,0,0,0.8);
+        color: white;
+        border-radius: 6px;
+        font-size: 0.9rem;
+        white-space: nowrap;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        transition-delay: 0.5s;
+      }
+
+      &.prev-link::after {
+        right: 0;  // Right align for previous button
+      }
+
+      &.next-link::after {
+        right: 0;  // Right align for next button
+      }
+
+      &:not(:last-child) {
+        margin-right: 8px;
+      }
+
+      img {
+        opacity: 0.9;
       }
     }
 
@@ -589,7 +621,7 @@
       font-size: 2.4rem;
       line-height: 1;
       margin: 0;
-      font-weight: 400;
+      font-weight: 300;
       position: relative;
       top: -2px;
     }
