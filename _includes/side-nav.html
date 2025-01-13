@@ -4,12 +4,7 @@
     {% assign work_pages = site.pages | where: "layout", "work" | sort: "order" %}
     {% for work in work_pages %}
       <li {% if page.url == work.url %}class="active"{% endif %}>
-        <a href="{{ work.url }}">
-          {% if page.url == work.url %}
-            <img src="/assets/imgs/nav-item.png" alt="" class="page-icon">
-          {% endif %}
-          {{ work.title }}
-        </a>
+        <a href="{{ work.url }}">{{ work.title }}</a>
       </li>
     {% endfor %}
   </ul>
@@ -19,12 +14,7 @@
     {% assign method_pages = site.pages | where: "layout", "method" | sort: "order" %}
     {% for method in method_pages %}
       <li {% if page.url == method.url %}class="active"{% endif %}>
-        <a href="{{ method.url }}">
-          {% if page.url == method.url %}
-            <img src="/assets/imgs/nav-item.png" alt="" class="page-icon">
-          {% endif %}
-          {{ method.title }}
-        </a>
+        <a href="{{ method.url }}">{{ method.title }}</a>
       </li>
     {% endfor %}
   </ul>
