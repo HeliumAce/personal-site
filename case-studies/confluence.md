@@ -30,9 +30,9 @@ During my time on Confluence, we scaled the design team from 3 to 12+ designers 
 ## Confluence's Next Play
 In collaboration with my cross-functional partners and Atlassian's executive team, we developed a 6-pager strategy to reinvent Confluence. Our goal was to reinvent Confluence as a modern, collaborative workspace for every team. Confluence's Next Play would guide the next 3+ years of development.
 
-![Our 6-pager strategy to reinvent Confluence](/assets/work/confluence/confluence01.png)
+![Our 6-pager strategy to reinvent Confluence](/assets/work/confluence/Confluence01.png)
 *Our 6-pager strategy to reinvent Confluence*
-![3 strategic pillars](/assets/work/confluence/confluence02.png)
+![3 strategic pillars](/assets/work/confluence/Confluence02.png)
 *3 strategic pillars*
 
 ## Show, don't tell
@@ -94,9 +94,9 @@ During this time, I was also encouraging the team to push on the edges of our pr
 
 ## Building momentum
 With our startegy and vision in hand, we needed to onboard our team to the new direction. Alongside my leadership team, we planned and facilited a series of workshops to generate energy and momentum for Confluence's Next Play.
-![Workshopping Confluence's Next Play](/assets/work/confluence/confluence07.png)
+![Workshopping Confluence's Next Play](/assets/work/confluence/Confluence07.png)
 *Workshopping Confluence's Next Play*
-![Workshopping Confluence's Next Play](/assets/work/confluence/confluence08.png)
+![Workshopping Confluence's Next Play](/assets/work/confluence/Confluence08.png)
 *Workshopping Confluence's Next Play*
 
 ## Execution
@@ -104,27 +104,27 @@ Confluence's Next Play would drive the next 3+ years of development. These are j
 ### Drag and drop
 A low hanging fruit effort to improve the usability of reording pages in Confluence. The byproduct of this effort was an increase in the # of users reordering pages and the # of pages moved. Encouraging signals for a product whose success would be rooted in managing the needs of ever larger teams. A more organized space is a more productive space.
 {% include image-compare.html 
-  before="/assets/work/confluence/confluence09.png"
-  after="/assets/work/confluence/confluence10.png"
+  before="/assets/work/confluence/Confluence09.png"
+  after="/assets/work/confluence/Confluence10.png"
   before_alt="Before"
   after_alt="After"
   caption="Drag and drop" %}
-![Impact](/assets/work/confluence/confluence11.png)
+![Impact](/assets/work/confluence/Confluence11.png)
 *Impact*    
 ### The Confluence editor
 One of the most complex projects in Confluence's history. Redesigning the editor for a large active user base with a myriad of complex and nuanced use cases required a deeply researched and thorough design effort. Huge kudos to Jazz Ernest for leading the design effort.
 {% include image-compare.html 
-  before="/assets/work/confluence/confluence12.png"
-  after="/assets/work/confluence/confluence13.png"
+  before="/assets/work/confluence/Confluence12.png"
+  after="/assets/work/confluence/Confluence13.png"
   before_alt="Before"
   after_alt="After"
   caption="The Confluence editor" %}
 
 ## Team culture
 It was an immense priveledge to lead the Confluence design team.
-![Team offsite in Sydney](/assets/work/confluence/confluence14.png)
+![Team offsite in Sydney](/assets/work/confluence/Confluence14.png)
 *Team offsite in Sydney*
-![Goofing off](/assets/work/confluence/confluence15.png)
+![Goofing off](/assets/work/confluence/Confluence15.png)
 *Goofing off*
 
 > 📫 Want to learn more about my work or go deeper on a case study? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
