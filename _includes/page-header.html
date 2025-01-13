@@ -1,8 +1,12 @@
 <div class="page-header">
-  <a href="/" class="back-link">
-    <img src="/assets/imgs/icons/icon-home.svg" alt="" width="16" height="16">
-    Home
-  </a>
+  <div class="breadcrumb">
+    <a href="/" class="back-link">
+      <img src="/assets/imgs/icons/icon-home.svg" alt="" width="16" height="16">
+      Liam
+    </a>
+    <span class="separator">/</span>
+    <span class="current">{{ page.title }}</span>
+  </div>
 
   <div class="page-nav">
     {% if page.layout == "work" or page.layout == "method" %}
