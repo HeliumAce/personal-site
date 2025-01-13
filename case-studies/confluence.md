@@ -30,9 +30,9 @@ During my time on Confluence, we scaled the design team from 3 to 12+ designers 
 ## Confluence's Next Play
 In collaboration with my cross-functional partners and Atlassian's executive team, we developed a 6-pager strategy to reinvent Confluence. Our goal was to reinvent Confluence as a modern, collaborative workspace for every team. Confluence's Next Play would guide the next 3+ years of development.
 
-![Confluence](/assets/work/confluence/confluence01.png)
+![Our 6-pager strategy to reinvent Confluence](/assets/work/confluence/confluence01.png)
 *Our 6-pager strategy to reinvent Confluence*
-![Confluence](/assets/work/confluence/confluence02.png)
+![3 strategic pillars](/assets/work/confluence/confluence02.png)
 *3 strategic pillars*
 
 ## Show, don't tell
@@ -83,20 +83,20 @@ During the strategy workshops, I teamed up with Confluence's lead designers to e
 ## Competitive product mapping
 During this time, I was also encouraging the team to push on the edges of our product design and IA. One method I used to help unlock new creative directions was to map Confluence's objects and IA on top of a competitor's product. One such example of this was mapping Confluence's objects and IA on top of InVision. Although not intended to be a shippable design, this exploration generated a lot of buzz and would influence the future direction of Atlassian's navigation redesign. Confluence + InVision = Influence 😉
 
-![Confluence](/assets/work/confluence/influence/01.png)
+![Mapping Confluence's objects and IA on top of InVision](/assets/work/confluence/influence/01.png)
 *Mapping Confluence's objects and IA on top of InVision*
 
-![Confluence](/assets/work/confluence/influence/02.png)
+![Mapping Confluence's objects and IA on top of InVision](/assets/work/confluence/influence/02.png)
 *Mapping Confluence's objects and IA on top of InVision*
 
-![Confluence](/assets/work/confluence/influence/03.png)
+![Mapping Confluence's objects and IA on top of InVision](/assets/work/confluence/influence/03.png)
 *Mapping Confluence's objects and IA on top of InVision*
 
 ## Building momentum
 With our startegy and vision in hand, we needed to onboard our team to the new direction. Alongside my leadership team, we planned and facilited a series of workshops to generate energy and momentum for Confluence's Next Play.
-![Confluence](/assets/work/confluence/confluence07.png)
+![Workshopping Confluence's Next Play](/assets/work/confluence/confluence07.png)
 *Workshopping Confluence's Next Play*
-![Confluence](/assets/work/confluence/confluence08.png)
+![Workshopping Confluence's Next Play](/assets/work/confluence/confluence08.png)
 *Workshopping Confluence's Next Play*
 
 ## Execution
@@ -109,7 +109,7 @@ A low hanging fruit effort to improve the usability of reording pages in Conflue
   before_alt="Before"
   after_alt="After"
   caption="Drag and drop" %}
-![Confluence](/assets/work/confluence/confluence11.png)
+![Impact](/assets/work/confluence/confluence11.png)
 *Impact*    
 ### The Confluence editor
 One of the most complex projects in Confluence's history. Redesigning the editor for a large active user base with a myriad of complex and nuanced use cases required a deeply researched and thorough design effort. Huge kudos to Jazz Ernest for leading the design effort.
@@ -122,9 +122,9 @@ One of the most complex projects in Confluence's history. Redesigning the editor
 
 ## Team culture
 It was an immense priveledge to lead the Confluence design team.
-![Confluence](/assets/work/confluence/confluence14.png)
+![Team offsite in Sydney](/assets/work/confluence/confluence14.png)
 *Team offsite in Sydney*
-![Confluence](/assets/work/confluence/confluence15.png)
+![Goofing off](/assets/work/confluence/confluence15.png)
 *Goofing off*
 
 > 📫 Want to learn more about my work or go deeper on a case study? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
