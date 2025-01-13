@@ -1,0 +1,13 @@
+<div class="image-compare">
+  <div class="image-wrapper">
+    <img class="image-before" src="{{ include.before }}" alt="{{ include.before_alt }}">
+    <img class="image-after" src="{{ include.after }}" alt="{{ include.after_alt }}">
+  </div>
+  <div class="slider-handle">
+    <span class="tooltip-before">Before</span>
+    <span class="tooltip-after">After</span>
+  </div>
+</div>
+{% if include.caption %}
+<em class="image-caption">{{ include.caption }}</em>
+{% endif %} 
