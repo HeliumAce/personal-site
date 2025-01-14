@@ -23,7 +23,7 @@ highlights: Grew design from 3 to 12+ designers while reinventing Confluence Clo
 
 ## Summary
 
-During my time on Confluence, we scaled the design team from 3 to 12+ designers while delivering a strategy and vision for the product that would guide the next 3+ years of development. This page provides asnapshot from a larger case study that I've prepared for past panel presentations.
+During my time on Confluence, we scaled the design team from 3 to 12+ designers while delivering a strategy and vision for the product that would guide the next 3+ years of development. This page provides a snapshot from a larger case study that I've prepared for past panel presentations.
 
 > 📫 Want to learn more about my work or go deeper on a case study? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
 
@@ -93,7 +93,7 @@ During this time, I was also encouraging the team to push on the edges of our pr
 *Mapping Confluence's objects and IA on top of InVision*
 
 ## Building momentum
-With our startegy and vision in hand, we needed to onboard our team to the new direction. Alongside my leadership team, we planned and facilited a series of workshops to generate energy and momentum for Confluence's Next Play.
+With our strategy and vision in hand, we needed to onboard our team to the new direction. Alongside my leadership team, we planned and facilitated a series of workshops to generate energy and momentum for Confluence's Next Play.
 ![Workshopping Confluence's Next Play](/assets/work/confluence/Confluence07.png)
 *Workshopping Confluence's Next Play*
 ![Workshopping Confluence's Next Play](/assets/work/confluence/Confluence08.png)
@@ -102,10 +102,10 @@ With our startegy and vision in hand, we needed to onboard our team to the new d
 ## Execution
 Confluence's Next Play would drive the next 3+ years of development. These are just a couple of examples of projects we delivered during the 18 months following the delivery of our strategy and vision.
 ### Drag and drop
-A low hanging fruit effort to improve the usability of reording pages in Confluence. The byproduct of this effort was an increase in the # of users reordering pages and the # of pages moved. Encouraging signals for a product whose success would be rooted in managing the needs of ever larger teams. A more organized space is a more productive space.
+A low hanging fruit effort to improve the usability of reordering pages in Confluence. The byproduct of this effort was an increase in the # of users reordering pages and the # of pages moved. Encouraging signals for a product whose success would be rooted in managing the needs of ever larger teams. A more organized space is a more productive space.
 {% include image-compare.html 
-  before="/assets/work/confluence/Confluence09.png"
-  after="/assets/work/confluence/Confluence10.png"
+  before="/assets/work/confluence/comparisons/15.png"
+  after="/assets/work/confluence/comparisons/16.png"
   before_alt="Before"
   after_alt="After"
   caption="Drag and drop" %}
@@ -121,7 +121,7 @@ One of the most complex projects in Confluence's history. Redesigning the editor
   caption="The Confluence editor" %}
 
 ## Team culture
-It was an immense priveledge to lead the Confluence design team.
+It was an immense privilege to lead the Confluence design team.
 ![Team offsite in Sydney](/assets/work/confluence/Confluence14.png)
 *Team offsite in Sydney*
 ![Goofing off](/assets/work/confluence/Confluence15.png)
