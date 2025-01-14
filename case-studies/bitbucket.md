@@ -22,3 +22,10 @@ highlights: Managed a small and scrappy team while delivering numerous key wins 
 ---
 
 > 🚧 This page is in progress. Check back again soon. 🚧
+
+{% include image-compare.html 
+  before="/assets/work/bitbucket/comparisons/prdash-01.png"
+  after="/assets/work/bitbucket/comparisons/prdash-02.png"
+  before_alt="Before"
+  after_alt="After"
+  caption="Redesigning the Bitbucket dashboard" %}
