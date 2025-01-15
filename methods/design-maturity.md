@@ -1,6 +1,6 @@
 ---
 layout: method
-title: "Design gardens"
+title: "Design team maturity"
 description: "Achieving design team maturity through shared ownership and accountability of goals and outcomes."
 icon: /assets/imgs/icons/icon-gardens.svg
 color: "#4E8B9F"
