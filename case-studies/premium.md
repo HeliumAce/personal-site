@@ -132,5 +132,12 @@ In addition to owning the overall experience, I was also responsible for ensurin
 ![After: More room for growth experimentation](/assets/work/vanguard/Vanguard39.png)
 *After: More room for growth experimentation*
 
+{% include image-compare.html 
+  before="/assets/work/vanguard/Vanguard37.png"
+  after="/assets/work/vanguard/Vanguard38.png"
+  before_alt="Before"
+  after_alt="After"
+  caption="Billing before and after" %}
+
 ### Closing thoughts
 This was one of the most complex programs of work I've been involved with. It required a high level of alignment and collaboration across Atlassian. I'm proud of the work we delivered and the impact it had on the business.
