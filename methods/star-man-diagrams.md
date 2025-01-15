@@ -1,7 +1,7 @@
 ---
 layout: method
-title: "Leadership roles"
-description: "Providing a clear framework for roles and responsibilities across a design leadership team."
+title: "Core action diagrams"
+description: "Conceptualizing the core actions within a system one action at a time."
 icon: /assets/imgs/icons/icon-leadershiproles.svg
 color: "#2C5D6F"
 order: 8
