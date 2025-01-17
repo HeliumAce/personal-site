@@ -22,7 +22,7 @@ This was a method I developed to help me understand the opportunities for machin
 
 ## Vertical mapping
 
-![Knowledge managemet](/assets/work/top-task-mapping/01-2.png)
+![Knowledge management](/assets/work/top-task-mapping/01-2.png)
 *Knowledge management*
 ![Project collaboration](/assets/work/top-task-mapping/02-2.png)
 *Project collaboration*

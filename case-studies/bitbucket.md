@@ -17,7 +17,7 @@ highlights: Managed a small and scrappy team while delivering numerous key wins 
 
 ### 🎯 Impact
 - Increased NPS from 39 to 55
-- Decreased “Usability” detractors from 5.5% to 3% (RUF)
+- Decreased “Usability” detractors from 5.5% to 3%
 
 ---
 
@@ -29,10 +29,10 @@ During my time on Bitbucket, we were able to deliver a number of key wins for Bi
 
 ## Asynchronous collaboration
 
-Bitbucket design was spread across multiple geos and timezones. To stay connected and aligned, we needed to develop processes optimize for asynchronous collaboration. Alongside quarterly in-person workshops and regular remote syncs, we experimented with a number of of improvements to design critiques. The result of this experiementation was a critique process that we dubbed a "design blitz". Optimized for asynchronous teams, the design blitz encouraged heads down feedback collection and focused in person sessions on only the most critical items.
+Bitbucket design was spread across multiple geos and timezones. To stay connected and aligned, we needed to develop processes optimize for asynchronous collaboration. Alongside quarterly in-person workshops and regular remote syncs, we experimented with a number of of improvements to design critiques. The result of this experimentation was a critique process that we dubbed a "design blitz". Optimized for asynchronous teams, the design blitz encouraged heads down feedback collection and focused in person sessions on only the most critical items.
 
-![Torperdoes, stars, and the art of blitz](/assets/work/bitbucket/blitz/01.png)
-*Torperdoes, stars, and the art of blitz*
+![Torpedoes, stars, and the art of blitz](/assets/work/bitbucket/blitz/01.png)
+*Torpedoes, stars, and the art of blitz*
 
 > 🔍 __Go deeper:__ [Torpedoes, stars, and the art of blitz](https://medium.com/designing-atlassian/torpedoes-stars-and-the-art-of-the-blitz-363f76ef63bf) on Medium.
 
@@ -51,7 +51,7 @@ The basic object model unpacks it's interactions, metadata, relationship, and pa
 ![Pull request object model](/assets/work/bitbucket/objects/02.png)
 *Pull request object model*
 
-### Releationship models
+### Relationship models
 
 With a better understanding of the system objects, we can begin to map out the relationships between them. This can be a great way to build a shared mental model of the system across a team.
 
@@ -61,7 +61,7 @@ With a better understanding of the system objects, we can begin to map out the r
 *Object relationship model*
 
 ## Unpacking Bitbucket complexity
-Shortly after joining Bitbucket, we assembled a cross-functional team of designers, product managers, data anlysts and researchers, to unpack Bitbucket complexity. We had a clear quantitative signal that Bitbucket was too complex for many users, but we were lacking the qualitative data to understand why. We ran and analyzed 30+ customer interviews and grouped the results into a set of themes. The themes were then mapped to a set of complexity posters that would heavily influence the product roadmap for the next year. Through this effort, we saw tangible improvments to the overall usability and user experience of Bitbucket.
+Shortly after joining Bitbucket, we assembled a cross-functional team of designers, product managers, data analysts and researchers, to unpack Bitbucket complexity. We had a clear quantitative signal that Bitbucket was too complex for many users, but we were lacking the qualitative data to understand why. We ran and analyzed 30+ customer interviews and grouped the results into a set of themes. The themes were then mapped to a set of complexity posters that would heavily influence the product roadmap for the next year. Through this effort, we saw tangible improvements to the overall usability and user experience of Bitbucket.
 
 ![NPS trends and smoke signals](/assets/work/bitbucket/complexity/01.png)
 *NPS trends and smoke signals*
@@ -71,7 +71,7 @@ Shortly after joining Bitbucket, we assembled a cross-functional team of designe
 
 ## ShipIt wins
 
-Atlassian's quarterly ShipIt events provided a great opporuntiy to influence product direction and experience. During my time on Bitbucket, I collaborated on two winning ShipIt projects that would go on to become key wins for Bitbucket customers and the business.
+Atlassian's quarterly ShipIt events provided a great opportunity to influence product direction and experience. During my time on Bitbucket, I collaborated on two winning ShipIt projects that would go on to become key wins for Bitbucket customers and the business.
 
 ### A better Bitbucket dashboard
 

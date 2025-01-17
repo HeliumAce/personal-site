@@ -44,8 +44,8 @@ Simple star diagrams were created to better align and understand the scope of th
 *Pricing page journeys - Getting started and high-touch sales*
 ![Feature upsell journeys - Discover Premium and start free trial](/assets/work/vanguard/Vanguard04.png)
 *Feature upsell journeys - Discover Premium and start free trial*
-![Billing journeys - Updgrade, downgrade, and billing journeys](/assets/work/vanguard/Vanguard05.png)
-*Billing journeys - Updgrade, downgrade, and billing journeys*
+![Billing journeys - Upgrade, downgrade, and billing journeys](/assets/work/vanguard/Vanguard05.png)
+*Billing journeys - Upgrade, downgrade, and billing journeys*
 
 ### Prioritizing the work
 There was no single team assigned to this effort. To ensure experience quality and consistency, I needed a commitment from across the organization to prioritize this work. The email below was shared with design leaders from across Atlassian. In it, I outline what we would need to be successful, and what they could expect to see in return.
@@ -119,7 +119,7 @@ Some of the tougher moments were when we needed to step in front of a high-prior
 *Spotlight on the high-priority experience risks*
 
 ### Setting & maintaining a high experience quality bar
-In addition to owning the overall experience, I was also responsible for ensuring that the experience quality was maintained across the program of work. This included working with design teams across Atlassian and occassionally stepping in to collaborate on a specific experience or feature.
+In addition to owning the overall experience, I was also responsible for ensuring that the experience quality was maintained across the program of work. This included working with design teams across Atlassian and occasionally stepping in to collaborate on a specific experience or feature.
 
 ![Before: Competing primary CTAs](/assets/work/vanguard/Vanguard35.png)
 *Before: Competing primary CTAs*
@@ -141,3 +141,5 @@ In addition to owning the overall experience, I was also responsible for ensurin
 
 ### Closing thoughts
 This was one of the most complex programs of work I've been involved with. It required a high level of alignment and collaboration across Atlassian. I'm proud of the work we delivered and the impact it had on the business.
+
+> 📫 Want to learn more about my work or go deeper on a case study? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
