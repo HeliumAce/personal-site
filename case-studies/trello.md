@@ -60,25 +60,26 @@ During a period of rapid new feature development, our product experience started
 ### 4. What if, Trello?
 Building off the success of our visual roadmap, we set out to deliver a more ambitious vision for the future of Trello. What If, Trello? asked the design team to imagine not what Trello is today, but what Trello could become. We used this exercise not only as a way to inspire and motivate our immediate team but also to generate a set of ideas that provoked new thinking and conversations with our executive team and founders.
 
-<img src="/assets/work/trello/Trello09.png" alt="What if, Trello?">
-*...*
+<img src="/assets/work/trello/Trello09.png" alt="The call to action I shared with the team">
+*The call to action I shared with the team*
 
-<img src="/assets/work/trello/Trello10.png" alt="What if, Trello?">
-*...*
+<img src="/assets/work/trello/Trello10.png" alt="The call to action I shared with the team">
+*The call to action I shared with the team*
 
-<img src="/assets/work/trello/Trello11.png" alt="What if, Trello?">
-*...*
+<img src="/assets/work/trello/Trello11.png" alt="A more conversational card back">
+*A more conversational card back*
 
-<img src="/assets/work/trello/Trello12.png" alt="What if, Trello?">
-*...*
+<img src="/assets/work/trello/Trello12.png" alt="Exploring cross-flow between Trello and Confluence">
+*Exploring cross-flow between Trello and Confluence*
 
-<img src="/assets/work/trello/Trello13.png" alt="What if, Trello?">
-*...*
+<img src="/assets/work/trello/Trello13.png" alt="A provocative new approach to Atlassian's product suite">
+*A provocative new approach to Atlassian's product suite*
 
 ### 5. Design leadership roles & responsibilities
 During my time leading design at Trello, I was responsible for defining the roles and responsibilities for the design leadership group, which was composed of both managers and ICs. With an organizational emphasis on experience quality, we explored new ways to empower principal designers to raise the quality bar across the organization. This model clearly defined those roles and responsibilities.
 
 <img src="/assets/work/trello/Trello14.png" alt="Design leadership roles & responsibilities">
+*Design leadership roles & responsibilities*
 
 > 📫 Want to learn more about my work or go deeper on a case study? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
 
