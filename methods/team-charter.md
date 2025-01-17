@@ -10,7 +10,7 @@ order: 3
 
 The team charter workshop aligns teams around their shared purpose and values. The outputs below are taken from a team charter workshop I ran shortly after joining the Trello design team as Head of Design.
 
-> 📫 Want to learn more about my work or or go deeper on this method? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
+> 📫 Want to learn more about my work or go deeper on this method? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
 
 ## Workshop agenda
 
@@ -48,6 +48,6 @@ The team charter workshop aligns teams around their shared purpose and values. T
 ![Success measures](/assets/work/charter-workshop/12.png)
 *Success measures*
 
-> 📫 Want to learn more about my work or or go deeper on this method? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
+> 📫 Want to learn more about my work or go deeper on this method? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
 
 

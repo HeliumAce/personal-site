@@ -23,7 +23,7 @@ I recently completed the Object-Oriented UX strategist certification. Following 
 
 ### Object models
 
-Although recently certified in OOUX, I've been using a similar approach to unpacking a product's objects and relationships throughout my career. When joining a new team, these models offer an accerlerated understanding of the product and domain while also assisting with alignment across design, product, and engineering teams.
+Although recently certified in OOUX, I've been using a similar approach to unpacking a product's objects and relationships throughout my career. When joining a new team, these models offer an accelerated understanding of the product and domain while also assisting with alignment across design, product, and engineering teams.
 
 ### Bitbucket
 ![Bitbucket object model](/assets/methods/systems-thinking/bitbucket/01.png)

@@ -16,7 +16,7 @@ highlights: Grew design from 3 to 12+ designers while reinventing Confluence Clo
 - Reinvented Confluence as a collaborative tool for every team
 
 ### 🎯 Impact
-- Increased YoY growth from ~40%* to 52%
+- Increased YoY growth from ~40% to 52%
 - Increased ARR by over 400%
 
 ---
@@ -81,7 +81,7 @@ During the strategy workshops, I teamed up with Confluence's lead designers to e
   caption="Inline apps and macros" %}
 
 ## Competitive product mapping
-During this time, I was also encouraging the team to push on the edges of our product design and IA. One method I used to help unlock new creative directions was to map Confluence's objects and IA on top of a competitor's product. One such example of this was mapping Confluence's objects and IA on top of InVision. Although not intended to be a shippable design, this exploration generated a lot of buzz and would influence the future direction of Atlassian's navigation redesign. Confluence + InVision = Influence 😉
+During this time, I was also encouraging the team to push on the edges of our product design and IA. One method I used to help unlock new creative directions was to map Confluence's objects and information architecture on top of a competitor's product. One such example of this was mapping Confluence's objects and IA on top of InVision. Although not intended to be a shippable design, this exploration generated a lot of buzz and would influence the future direction of Atlassian's navigation redesign. Confluence + InVision = Influence 😉
 
 ![Mapping Confluence's objects and IA on top of InVision](/assets/work/confluence/influence/01.png)
 *Mapping Confluence's objects and IA on top of InVision*
