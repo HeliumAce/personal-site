@@ -11,7 +11,7 @@ This was a method I developed to help me understand the opportunities for machin
 
 ## Sample tasks
 
-{% include image-gallery.html
+{% include expand-collapse.html
   title="Sample Tasks"
   images="/assets/work/top-task-mapping/01-1.png|/assets/work/top-task-mapping/02-1.png|/assets/work/top-task-mapping/03-1.png|/assets/work/top-task-mapping/04-1.png"
   captions="Finding the right information|Project planning|Testing|Improving agile processes"
@@ -19,7 +19,7 @@ This was a method I developed to help me understand the opportunities for machin
 
 ## Vertical mapping
 
-{% include image-gallery.html
+{% include expand-collapse.html
   title="Vertical Mapping"
   images="/assets/work/top-task-mapping/01-2.png|/assets/work/top-task-mapping/02-2.png|/assets/work/top-task-mapping/03-2.png|/assets/work/top-task-mapping/04-2.png"
   captions="Knowledge management|Project collaboration|Agile software development|Agile at scale"
