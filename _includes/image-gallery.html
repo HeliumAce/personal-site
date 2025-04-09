@@ -1,0 +1,37 @@
+{% comment %}
+USAGE:
+{% include image-gallery.html 
+  title="Gallery Title" 
+  expanded=false
+  images="image1.jpg|image2.jpg|image3.jpg" 
+  captions="Caption 1|Caption 2|Caption 3" 
+%}
+{% endcomment %}
+
+<div class="image-gallery" data-expanded="{{ include.expanded | default: false }}">
+  <div class="image-gallery-header">
+    <h3 class="image-gallery-title">{{ include.title }}</h3>
+    <div class="chevron-icon">
+      <svg class="chevron-down" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <svg class="chevron-right" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+  </div>
+  <div class="image-gallery-content">
+    {% assign image_array = include.images | split: "|" %}
+    {% assign caption_array = include.captions | split: "|" %}
+    
+    {% for image in image_array %}
+      {% assign index = forloop.index0 %}
+      <div class="gallery-image-wrapper">
+        <img src="{{ image | strip }}" alt="{{ caption_array[index] | strip }}">
+        {% if caption_array[index] %}
+          <em>{{ caption_array[index] | strip }}</em>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div> 

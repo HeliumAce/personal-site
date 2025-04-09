@@ -11,22 +11,16 @@ This was a method I developed to help me understand the opportunities for machin
 
 ## Sample tasks
 
-![Finding the right information](/assets/work/top-task-mapping/01-1.png)
-*Finding the right information*
-![Project planning](/assets/work/top-task-mapping/02-1.png)
-*Project planning*
-![Testing](/assets/work/top-task-mapping/03-1.png)
-*Testing*
-![Improving agile processes](/assets/work/top-task-mapping/04-1.png)
-*Improving agile processes*
+{% include image-gallery.html
+  title="Sample Tasks"
+  images="/assets/work/top-task-mapping/01-1.png|/assets/work/top-task-mapping/02-1.png|/assets/work/top-task-mapping/03-1.png|/assets/work/top-task-mapping/04-1.png"
+  captions="Finding the right information|Project planning|Testing|Improving agile processes"
+%}
 
 ## Vertical mapping
 
-![Knowledge management](/assets/work/top-task-mapping/01-2.png)
-*Knowledge management*
-![Project collaboration](/assets/work/top-task-mapping/02-2.png)
-*Project collaboration*
-![Agile software development](/assets/work/top-task-mapping/03-2.png)
-*Agile software development*
-![Agile at scale](/assets/work/top-task-mapping/04-2.png)
-*Agile at scale*
+{% include image-gallery.html
+  title="Vertical Mapping"
+  images="/assets/work/top-task-mapping/01-2.png|/assets/work/top-task-mapping/02-2.png|/assets/work/top-task-mapping/03-2.png|/assets/work/top-task-mapping/04-2.png"
+  captions="Knowledge management|Project collaboration|Agile software development|Agile at scale"
+%}
