@@ -8,9 +8,8 @@ USAGE:
 %}
 {% endcomment %}
 
-<div class="image-gallery" data-expanded="{{ include.expanded | default: false }}">
-  <div class="image-gallery-header">
-    <h3 class="image-gallery-title">{{ include.title }}</h3>
+<div class="expand-collapse-card" data-expanded="{{ include.expanded | default: false }}">
+  <div class="expand-collapse-card-header">
     <div class="chevron-icon">
       <svg class="chevron-down" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -19,8 +18,9 @@ USAGE:
         <path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </div>
+    <h3 class="expand-collapse-card-title">{{ include.title }}</h3>
   </div>
-  <div class="image-gallery-content">
+  <div class="expand-collapse-card-content">
     {% assign image_array = include.images | split: "|" %}
     {% assign caption_array = include.captions | split: "|" %}
     
