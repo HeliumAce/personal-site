@@ -123,7 +123,6 @@ This was a method I developed to help me understand the opportunities for machin
   /assets/methods/top-tasks/03-agile-software-development/03-35.png|
   /assets/methods/top-tasks/03-agile-software-development/03-36.png|
   /assets/methods/top-tasks/03-agile-software-development/03-37.png|
-  /assets/methods/top-tasks/03-agile-software-development/03-38.png|
   "
 %}
 
