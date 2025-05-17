@@ -9,7 +9,7 @@ order: 4
 
 > 🚧 This page is in progress. Check back again soon. 🚧
 
-<img src="/assets/work/trello/Trello14.png" alt="Design leadership roles & responsibilities">
+![Design leadership roles & responsibilities](/assets/work/trello/Trello14.png)
 *Design leadership roles & responsibilities*
 
 ![Design team maturity matrix](/assets/methods/design-team-maturity/01-framework-maturity-matrix.png)
