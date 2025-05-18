@@ -26,8 +26,11 @@ Using the simple metaphor of planting and nurturing seeds in a garden, this meth
 
 🔗 [View this method](https://www.notion.so/domake/04d15c108cc849d79e860fdea38e9c08?v=f1db42cd00f747e3b0b273037cf4028c&pvs=4)
 
-![Design gardens](/assets/methods/design-team-maturity/02-framework-design-gardens.jpeg)
-*Design gardens*
+![Design gardens template](/assets/methods/design-team-maturity/02-framework-design-gardens.jpeg)
+*Design gardens template*
+
+![Trello design gardens](/assets/methods/design-team-maturity/02-1-trello-design-gardens.png)
+*Trello design gardens*
 
 ## More methods & frameworks
 
