@@ -7,7 +7,7 @@ color: "#4E8B9F"
 order: 4
 ---
 
-This page offers a collection of frameworks and methods developed during my years leading design teams both in house and as a fraction Head of Design. 
+This page offers a collection of frameworks and methods developed during my years leading design teams both in-house and as a fractional Head of Design. 
 
 > 📫 Want to learn more about my work or go deeper on any of these methods? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
 
@@ -22,7 +22,7 @@ The design maturity matrix offers a great starting point for design leaders join
 
 ## Design gardens
 
-Using the simple metaphor of planting and nurturing seeds in a garden, this method aims to give design teams clear prioritization for their non-project work - design ops, envisioning efforts, team health & well being, and more.
+Using the simple metaphor of planting and nurturing seeds in a garden, this method aims to give design teams clear prioritization for their non-project work - design ops, envisioning efforts, team health & wellbeing, and more.
 
 🔗 [View this method](https://www.notion.so/domake/04d15c108cc849d79e860fdea38e9c08?v=f1db42cd00f747e3b0b273037cf4028c&pvs=4)
 
@@ -42,7 +42,7 @@ This simple, repeatable template gives designers an easy way to track and commun
 
 ### Design team onboarding guide
 
-This is a quick and easy starting point to organize onboarding material for new team members. Every organization is different so consider this an accelerant, not the finished product.
+A practical foundation to organize onboarding material for new team members. Every organization is different so use this as a springboard to build your own guide.
 
 🔗 [View this method](https://www.notion.so/domake/New-hire-onboarding-d1d4b18f07094538b1f1159e2ee4ec40?pvs=4)
 
