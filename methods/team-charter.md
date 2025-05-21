@@ -48,6 +48,4 @@ The team charter workshop aligns teams around their shared purpose and values. T
 ![Success measures](/assets/work/charter-workshop/12.png)
 *Success measures*
 
-> 📫 Want to learn more about my work or go deeper on this method? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
-
 
