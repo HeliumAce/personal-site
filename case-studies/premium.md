@@ -9,14 +9,16 @@ logo: /assets/imgs/logos/premium.svg
 highlights: Owned the end-to-end delivery of Atlassian Free and Premium plans across Jira and Confluence.
 ---
 ## Snapshot
-### ✨ Highlights
-- Delivered Free and Premium plans for Jira and Confluence
-- Owned the end-to-end experience and design quality across the entire program of work
-- Led a team of 40+ designers across multiple distinct orgs
+### ✨ Challenge
+Atlassian's single-tier pricing was a barrier to cloud adoption. Potential customers faced an all-or-nothing decision that excluded smaller teams and enterprises alike. Meanwhile, cloud revenue growth had plateaued. We needed a new approach to open the funnel and accelerate cloud growth.
+
+The challenge wasn't just adding pricing tiers. We needed to redesign the entire customer journey across numerous teams spanning multiple products, geographies, and organizational structures. All while maintaining end-to-end consistency and quality across touchpoints.
 
 ### 🎯 Impact
-- Increased the percentage of revenue attributed to Atlassian Cloud products from 50% to 60%
-- Contributed to a total revenue increase of over $100M between Q1 2020 and Q1 2021
+- **Opened the cloud funnel** — Free and Premium plans removed barriers for millions of potential users
+- **Accelerated growth** — Increased cloud revenue percentage from 50% to 60% within one year
+- **Delivered significant revenue impact** — Contributed to over $100M revenue increase between Q1 2020 and Q1 2021
+- **Unified fragmented experiences** — Created consistent end-to-end pricing & packaging journeys across all Atlassian products and tiers
 
 ---
 
@@ -24,20 +26,23 @@ highlights: Owned the end-to-end delivery of Atlassian Free and Premium plans ac
 
 ## Context
 
-In 2019, I was asked to lead the end-to-end experience of the Free and Premium plans for Jira and Confluence. This was a complex project spanning multiple teams and geos across Atlassian. Prior to this effort, Atlassian only offered a single, per user pricing tier, which was a barrier to entry for many potential cloud customers.
+In 2019, Atlassian's cloud growth had slowed. Our single, per-user pricing tier created friction at both ends of the market—too expensive for startups, too limited for enterprises considering cloud migration.
 
-### Before
-Prior to this effort, Atlassian only offered a single, per user pricing tier.
+Our product architecture reflected this constraint. Billing systems, user management, and product experiences were all built around legacy decisions that better reflected our server roots than our cloud-based future. We needed to redesign the entire pricing & packaging customer journey from first impression to enterprise scale.
 
-![Atlassian's cloud pricing model before the introduction of Free and Premium](/assets/work/vanguard/Vanguard01.png)
-*Atlassian's cloud pricing model before the introduction of Free and Premium*
+### Before: Single-tier barrier to entry
 
-### After
-To open the funnel and attract more customers to the cloud, we introduced Free and Premium plans.
+![Our single pricing tier created an all-or-nothing decision](/assets/work/vanguard/Vanguard01.png)
+*Our single pricing tier created an all-or-nothing decision*
 
-![Atlassian's cloud pricing model after the introduction of Free and Premium](/assets/work/vanguard/Vanguard02.png)
-*Atlassian's cloud pricing model after the introduction of Free and Premium*
-### Star diagrams
+### After: Multi-tier pricing & packaging
+
+![Free and Premium plans opened the funnel and created clear upgrade paths](/assets/work/vanguard/Vanguard02.png)
+*Free and Premium plans opened the funnel and created clear upgrade paths*
+
+## Case studies
+
+### Defining the end-to-end exeriences
 Simple star diagrams were created to better align and understand the scope of the effort. These simple outputs are a great way to understand the scope of an effort without getting caught up in specific UI or implementation details.
 
 ![Pricing page journeys - Getting started and high-touch sales](/assets/work/vanguard/Vanguard03.png)
