@@ -26,7 +26,7 @@ We faced a multi-part challenge: scale our team, operationalize design quality, 
 
 > 📢 Atlassian recently launched [Trello 2.0](https://www.atlassian.com/blog/trello), reflecting many foundations we established during my tenure.
 
-### 1. Operationalizing experience quality
+### Operationalizing experience quality
 
 #### Challenge
 Experience quality, historically Trello's strength, was slipping. We were in a feature race and squads were optimizing for speed over quality. There was no clear definition of what "quality" meant across the organization and we lacked incentives for teams to prioritize it.
@@ -43,7 +43,7 @@ I led an effort to operationalize experience quality across Trello by treating i
 #### Impact
 This effort directly contributed to a 3% increase in CSAT and a 10% improvement in our internal "Proud to Ship" metric. More importantly, quality became an integral part of how every team measured success. By making this a cross-functional goal rather than a design-only initiative, we distributed ownership and made quality everyone's responsibility.
 
-### 2. Design team charter
+### Design team charter
 
 #### Challenge
 With the team growing fast and significant recent turnover, many new designers were joining without understanding what made Trello's design culture unique. Meanwhile, tenured designers were concerned we were losing what made Trello such a special place to work. We needed to preserve the most important parts of the unique culture the team had built over previous years while evolving it for continued success.
@@ -63,19 +63,27 @@ To preserve and evolve what made our team unique, I planned and led a [charter w
 #### Impact
 This design team charter became a cornerstone of our culture for the next 3+ years. Team members still reference these values in design critiques, hiring conversations, and strategic decisions.
 
-### 3. Visual roadmap
-During a period of rapid new feature development, our product experience started to fragment. To connect the dots across squads and inspire the organization, we tasked a small cross-functional team with delivering a visual roadmap. This visual roadmap became a key artifact for the organization to develop a shared understanding of the product vision and align around the future of Trello.
+### Visual roadmap
 
-![Trello visual roadmap](/assets/work/trello/Trello06.png)
+#### Challenge
+During a period of rapid new feature development, our product experience started to fragment. Multiple squads were building features in isolation, and Trellists struggled to see how individual projects connected to a broader vision.
+
+#### Approach
+To connect the dots across squads and inspire the organization, we tasked a small team with delivering a visual roadmap. This roadmap helped teams across Trello understand what we were building, why it mattered, and how individual features connected to larger themes.
+
+![Trello visual roadmap personas](/assets/work/trello/Trello06.png)
 *Our visual roadmap connected the dots across squads and inspired the team*
 
-![Trello visual roadmap](/assets/work/trello/Trello07.png)
-*Our visual roadmap connected the dots across squads and inspired the team*
+![Trello visual roadmap connected experiences](/assets/work/trello/Trello07.png)
+*Empashsis was placed on cross-paltform experiences and collaboration*
 
-![Trello visual roadmap](/assets/work/trello/Trello08.png)
-*Our visual roadmap connected the dots across squads and inspired the team*
+![Trello visual roadmap card back redesign](/assets/work/trello/Trello08.png)
+*We leaned into a more conversational, modern card back*
 
-### 4. What if, Trello?
+#### Impact
+This visual roadmap became a key artifact for the organization to develop a shared understanding of the product vision and align around the future of Trello. It also acted as a stepping stone into more ambitious envisioning efforts.
+
+### What if, Trello?
 Building off the success of our visual roadmap, we set out to deliver a more ambitious vision for the future of Trello. What If, Trello? asked the design team to imagine not what Trello is today, but what Trello could become. We used this exercise not only as a way to inspire and motivate our immediate team but also to generate a set of ideas that provoked new thinking and conversations with our executive team and founders.
 
 ![The call to action I shared with the team](/assets/work/trello/Trello09.png)
@@ -93,7 +101,7 @@ Building off the success of our visual roadmap, we set out to deliver a more amb
 ![A provocative new approach to Atlassian's product suite](/assets/work/trello/Trello13.png)
 *A provocative new approach to Atlassian's product suite*
 
-### 5. Design leadership roles & responsibilities
+### Design leadership roles & responsibilities
 During my time leading design at Trello, I was responsible for defining the roles and responsibilities for the design leadership group, which was composed of both managers and ICs. With an organizational emphasis on experience quality, we explored new ways to empower principal designers to raise the quality bar across the organization. This model clearly defined those roles and responsibilities.
 
 ![Design leadership roles & responsibilities](/assets/work/trello/Trello14.png)
