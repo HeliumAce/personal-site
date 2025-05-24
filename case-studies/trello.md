@@ -75,7 +75,7 @@ To connect the dots across squads and inspire the organization, we tasked a smal
 *Our visual roadmap connected the dots across squads and inspired the team*
 
 ![Trello visual roadmap connected experiences](/assets/work/trello/Trello07.png)
-*Empashsis was placed on cross-paltform experiences and collaboration*
+*Emphasis was placed on cross-platform experiences and collaboration*
 
 ![Trello visual roadmap card back redesign](/assets/work/trello/Trello08.png)
 *We leaned into a more conversational, modern card back*
@@ -123,8 +123,10 @@ I developed a framework that clearly defined roles and responsibilities for our 
 #### Impact
 This framework empowered lead & principal designers to drive quality and culture alongside managers, creating multiple opportunities for leadership influence. It helped us scale design leadership as the team grew while ensuring our most experienced designers could make organization-wide impact.
 
+---
+
 ### The bigger picture
-Leading design at Trello reinforced that scaling isn't just about adding people—it's about creating an environment that help teams do their best work. The frameworks we built didn't just survive my time there; they became part of how Trello operates to this day.
+Leading design at Trello reinforced that scaling isn't just about adding people—it's about creating an environment that helps teams do their best work. The frameworks we built didn't just survive my time there; they became part of how Trello operates to this day.
 
 > 📫 Want to learn more about my work or go deeper on a case study? [Get in touch](https://linkedin.com/in/liamgreig).
 
