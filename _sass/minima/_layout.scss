@@ -246,10 +246,11 @@
   }
 
   h4 {
-    @include relative-font-size(1.25);
+    @include relative-font-size(1.375);
+    font-weight: 500;
 
     @include media-query($on-laptop) {
-      @include relative-font-size(1.125);
+      @include relative-font-size(1.25);
     }
   }
 }
