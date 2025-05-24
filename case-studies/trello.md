@@ -11,30 +11,37 @@ highlights: Led a team of 25+ designers while operationalizing experience qualit
 
 ## Snapshot
 ### ✨ Highlights
-- Grew design from ~12 to 25+ designers and managers
-- Operationalized experience quality across all squads and teams
-- Delivered a vision for the future of Trello
-- Developed a design team charter, purpose, and values
+Trello was growing fast but its experience was fragmenting. Our team had nearly doubled in size while simultaneously experiencing significant turnover as many original Trellists moved on to new challenges. Meanwhile, rapid feature development across multiple squads aimed at monetizing our established user base was making our product experience inconsistent and negatively impacting our users.
 
+We faced a multi-part challenge: scale our team, operationalize design quality, and grow our bottom line—all while preserving what made Trello special.
 ### 🎯 Impact
-- Increased CSAT from 86% to 89%
-- Increased our internal Proud to Ship metric from 45% to 55%
-- Increased revenue through the introduction of Premium and Enterprise plans
+- **Operationalized experience quality** — Increased CSAT from 86% to 89% and our cross-functional "Proud to Ship" metric from 45% to 55%
+- **Built lasting team culture** — Developed a design team charter, purpose, and values that became the bedrock of our culture for 3+ years
+- **Connected fragmented work** — Delivered a visual roadmap and vision for the future of Trello that aligned squads and inspired our team and stakeholders
+- **Drove revenue impact** — Contributed to increased revenue through revamped Premium and Enterprise plans
 
 ---
 
 ## Case studies
 
-> 📫 Want to learn more about my work or go deeper on a case study? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
+> 📢 Atlassian recently launched <a href="https://www.atlassian.com/blog/trello">Trello 2.0</a>, reflecting many foundations we established during my tenure.
 
 ### 1. Operationalizing experience quality
-I led an effort to operationalize experience quality across Trello. This included clearly defining experience quality OKRs, setting expectations for squads and teams, and delegating ownership of key results across the organization. This effort directly contributed to a 3% increase in CSAT and a 10% improvement in our internal "Proud to Ship" metric.
+
+#### Challenge
+Experience quality, historically Trello's strength, was slipping. We were in a feature race and squads were optimizing for speed over quality. There was no clear definition of what "quality" meant across the organization and we lacked incentives for teams to prioritize it.
+
+#### Approach
+I led an effort to operationalize experience quality across Trello by treating it like any other core business metric. Through a shared cross-functional OKR, I incentivized teams to make quality a priority. We set clear expectations for squads and delegated ownership of quality key results across the organization.
 
 <img src="/assets/work/trello/Trello02.png" alt="Trello quality objective">
 *Our quality objective focused on delivering consistent, reliable experiences*
 
 <img src="/assets/work/trello/Trello03.png" alt="Trello quality key results">
 *Key results were measured through CSAT, performance metrics, and accessibility scores*
+
+#### Impact
+This effort directly contributed to a 3% increase in CSAT and a 10% improvement in our internal "Proud to Ship" metric. More importantly, quality became an integral part of how every team measured success. By making this a cross-functional goal rather than a design-only initiative, we distributed ownership and made quality everyone's responsibility.
 
 ### 2. Design team charter
 When I joined Trello as Head of Design, the team was growing fast. There had been significant recent turnover, and many new designers were joining the team. To ensure we retained the incredible culture the team had built over previous years, I planned and led a workshop to define our purpose, values, and goals. The output of this workshop was a design team charter that became a cornerstone of our culture for the next 3+ years.
