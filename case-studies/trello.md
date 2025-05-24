@@ -84,7 +84,12 @@ To connect the dots across squads and inspire the organization, we tasked a smal
 This visual roadmap became a key artifact for the organization to develop a shared understanding of the product vision and align around the future of Trello. It also acted as a stepping stone into more ambitious envisioning efforts.
 
 ### What if, Trello?
-Building off the success of our visual roadmap, we set out to deliver a more ambitious vision for the future of Trello. What If, Trello? asked the design team to imagine not what Trello is today, but what Trello could become. We used this exercise not only as a way to inspire and motivate our immediate team but also to generate a set of ideas that provoked new thinking and conversations with our executive team and founders.
+
+#### Challenge
+Building off the success of our visual roadmap, we wanted to push beyond incremental improvements and shine a light on Trello's brightest possible future. We needed to inspire the team to think bigger while generating ambitious ideas that could spark new conversations with our stakeholders and executive team.
+
+#### Approach
+I challenged the design team with an invitation to play. The question was simple: Putting aside today's constraints and the fear of failure, what could Trello become? This exercise asked designers to imagine many different possible futures for Trello—creating concepts that would inspire our team and provoke entirely new ways of thinking about our experience and product.
 
 ![The call to action I shared with the team](/assets/work/trello/Trello09.png)
 *The call to action I shared with the team*
@@ -100,6 +105,9 @@ Building off the success of our visual roadmap, we set out to deliver a more amb
 
 ![A provocative new approach to Atlassian's product suite](/assets/work/trello/Trello13.png)
 *A provocative new approach to Atlassian's product suite*
+
+#### Impact
+While not every concept was designed to ship, this exercise fundamentally changed how we approached the future of Trello. It gave the team permission to think bigger and provided leadership with a vision of Trello's potential beyond its current form. The lasting impact of this creative effort is still showing up in [Trello's most recent evolution](https://www.atlassian.com/blog/trello) into a more modern, connected experience.
 
 ### Design leadership roles & responsibilities
 During my time leading design at Trello, I was responsible for defining the roles and responsibilities for the design leadership group, which was composed of both managers and ICs. With an organizational emphasis on experience quality, we explored new ways to empower principal designers to raise the quality bar across the organization. This model clearly defined those roles and responsibilities.
