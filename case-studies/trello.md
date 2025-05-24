@@ -110,10 +110,21 @@ I challenged the design team with an invitation to play. The question was simple
 While not every concept was designed to ship, this exercise fundamentally changed how we approached the future of Trello. It gave the team permission to think bigger and provided leadership with a vision of Trello's potential beyond its current form. The lasting impact of this creative effort is still showing up in [Trello's most recent evolution](https://www.atlassian.com/blog/trello) into a more modern, connected experience.
 
 ### Design leadership roles & responsibilities
-During my time leading design at Trello, I was responsible for defining the roles and responsibilities for the design leadership group, which was composed of both managers and ICs. With an organizational emphasis on experience quality, we explored new ways to empower principal designers to raise the quality bar across the organization. This model clearly defined those roles and responsibilities.
+
+#### Challenge
+As our design team scaled to 25+ people, we needed new models for design leadership that went beyond traditional management hierarchies. With an organizational emphasis on experience quality, we needed ways to empower our most experienced individual contributors to drive impact across the organization.
+
+#### Approach
+I developed a framework that clearly defined roles and responsibilities for our design leadership group, which included both managers and senior ICs. This model recognized that leadership comes from expertise and impact, not just title, and gave senior ICs clear pathways to influence quality and culture across teams.
 
 ![Design leadership roles & responsibilities](/assets/work/trello/Trello14.png)
 *Design leadership roles & responsibilities*
+
+#### Impact
+This framework empowered lead & principal designers to drive quality and culture alongside managers, creating multiple opportunities for leadership influence. It helped us scale design leadership as the team grew while ensuring our most experienced designers could make organization-wide impact.
+
+### The bigger picture
+Leading design at Trello reinforced that scaling isn't just about adding people—it's about creating an environment that help teams do their best work. The frameworks we built didn't just survive my time there; they became part of how Trello operates to this day.
 
 > 📫 Want to learn more about my work or go deeper on a case study? [Get in touch](https://linkedin.com/in/liamgreig).
 
