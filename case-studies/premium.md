@@ -79,8 +79,8 @@ I created and shared a set of frameworks to connect every customer touchpoint ac
 ![Feature upsell and trial journeys](/assets/work/vanguard/Vanguard04.png)
 *We mapped both self-serve and high-touch sales scenarios*
 
-![Workshopping Premium and Free journeys](/assets/work/vanguard/Vanguard17.png)
-*Workshopping Premium and Free journeys*
+![Workshopping Enterprise journeys](/assets/work/vanguard/Vanguard17.png)
+*Ben, a lead designer, workshopping Enterprise journeys*
 
 ![High fidelity journeys](/assets/work/vanguard/Vanguard22.png)
 *High fidelity journeys*
@@ -103,7 +103,7 @@ Using our end-to-end journeys as a foundation, we created an experience risk reg
 *We overlaid potential risks onto our customer journey maps*
 
 ![Risk register detail](/assets/work/vanguard/Vanguard28.png)
-*Each risk included clear owners, mitigation plans, and escalation triggers*
+*Each risk included clear owners, severity, and mitigation plans*
 
 When high-priority risks emerged, I packaged them into "clean escalations"—clear presentations of the problem, impact, and recommended solutions that leadership could act on quickly.
 
