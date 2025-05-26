@@ -15,16 +15,16 @@ Trello was growing fast but its experience was fragmenting. Our team had nearly 
 
 We faced a multi-part challenge: scale our team, operationalize design quality, and grow our bottom line—all while preserving what made Trello special.
 ### 🎯 Impact
-- **Operationalized experience quality** — Increased CSAT from 86% to 89% and our cross-functional "Proud to Ship" metric from 45% to 55%
-- **Built lasting team culture** — Developed a design team charter, purpose, and values that became the bedrock of our culture for 3+ years
-- **Connected fragmented work** — Delivered a visual roadmap and vision for the future of Trello that aligned squads and inspired our team and stakeholders
-- **Drove revenue impact** — Contributed to increased revenue through revamped Premium and Enterprise plans
+- **Operationalized experience quality** - Increased CSAT from 86% to 89% and our cross-functional "Proud to Ship" metric from 45% to 55%
+- **Built lasting team culture** - Developed a design team charter, purpose, and values that became the bedrock of our culture for 3+ years
+- **Connected fragmented work** - Delivered a visual roadmap and vision for the future of Trello that aligned squads and inspired our team and stakeholders
+- **Drove revenue impact** - Contributed to increased revenue through revamped Premium and Enterprise plans
 
 ---
 
 ## Case studies
 
-> 📢 Atlassian recently launched [Trello 2.0](https://www.atlassian.com/blog/trello), reflecting many foundations we established during my tenure.
+> 📢 Atlassian recently launched [Trello 2.0](https://www.atlassian.com/blog/trello), reflecting many of the foundations we established during my tenure.
 
 ### Operationalizing experience quality
 
@@ -45,6 +45,8 @@ This effort directly contributed to a 3% increase in CSAT and a 10% improvement 
 
 ### Design team charter
 
+🔗 [Learn more about this workshop]({% link methods/team-charter.md %})
+
 #### Challenge
 With the team growing fast and significant recent turnover, many new designers were joining without understanding what made Trello's design culture unique. Meanwhile, tenured designers were concerned we were losing what made Trello such a special place to work. We needed to preserve the most important parts of the unique culture the team had built over previous years while evolving it for continued success.
 
@@ -54,7 +56,7 @@ To preserve and evolve what made our team unique, I planned and led a [charter w
 ![Workshop mission](/assets/work/charter-workshop/01.png)
 *Workshop mission*
 
-![Roses, Buds, and Thorns](/assets/work/charter-workshop/03.png)
+![Sample session output: Roses, Buds, and Thorns](/assets/work/charter-workshop/03.png)
 *Roses, Buds, and Thorns*
 
 ![Trello design team values](/assets/work/trello/Trello05.png)
@@ -70,6 +72,9 @@ During a period of rapid new feature development, our product experience started
 
 #### Approach
 To connect the dots across squads and inspire the organization, we tasked a small team with delivering a visual roadmap. This roadmap helped teams across Trello understand what we were building, why it mattered, and how individual features connected to larger themes.
+
+#### Sample outputs
+Just a few of the many vignettes from this effort
 
 ![Trello visual roadmap personas](/assets/work/trello/Trello06.png)
 *Our visual roadmap connected the dots across squads and inspired the team*
@@ -115,7 +120,7 @@ While not every concept was designed to ship, this exercise fundamentally change
 As our design team scaled to 25+ people, we needed new models for design leadership that went beyond traditional management hierarchies. With an organizational emphasis on experience quality, we needed ways to empower our most experienced individual contributors to drive impact across the organization.
 
 #### Approach
-I developed a framework that clearly defined roles and responsibilities for our design leadership group, which included both managers and senior ICs. This model recognized that leadership comes from expertise and impact, not just title, and gave senior ICs clear pathways to influence quality and culture across teams.
+I developed a design team attributes framework that clearly defined roles and responsibilities for our design leadership group, which included both managers and senior ICs. This model recognized that leadership comes from expertise and impact, not just title, and gave senior ICs clear pathways to influence quality and culture across teams.
 
 ![Design leadership roles & responsibilities](/assets/work/trello/Trello14.png)
 *Design leadership roles & responsibilities*
