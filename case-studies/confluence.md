@@ -10,15 +10,15 @@ highlights: Grew design from 3 to 12+ designers while reinventing Confluence Clo
 ---
 ## Case study
 
-Confluence was losing ground to newer collaboration tools like Notion. Traditionally catering to technical teams, it had grown complex and confusing over time. Many teams saw it simply as "Jira Docs" or their corporate "Wiki," while competitors were defining what modern collaborative workspaces could actually look and feel like. Our user feedback was consistent: the product felt outdated, growth was slowing, and non-technical teams found it hard to adopt.
+Confluence was having a midlife crisis. Traditionally catering to technical teams, it had grown complex and confusing over time. Many teams saw it simply as "Jira Docs" or their corporate "Wiki." Meanwhile, products like Notion were showing teams what collaborative content workspaces could actually look and feel like.
 
-We were tasked with reinventing Confluence Cloud as a collaborative workspace for all teams. This required us to reimagine our product strategy, experience and go-to-market motion from the ground up.
+We were tasked with reinventing Confluence Cloud as a collaborative workspace for all teams. This required reimagining our product strategy, experience, and go-to-market motion from the ground up.
 
 ### 🎯 Impact
 - **Increased growth** - YoY growth went from ~40% to 52% and ARR increased by over 400%
 - **Scaled the design team** - Grew from 3 to 12+ designers while maintaining quality
 - **Defined product direction** - Co-authored the strategy that guided 3+ years of development
-- **Improved core experiences** - Redesigned everything from page creation to content organization
+- **Improved core experiences** - Redesigned everything from content organization to page creation, editing, and collaboration
 
 ---
 
