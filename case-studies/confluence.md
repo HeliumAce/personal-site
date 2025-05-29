@@ -8,80 +8,101 @@ date-range: "2017-2019"
 logo: /assets/imgs/logos/confluence.svg
 highlights: Grew design from 3 to 12+ designers while reinventing Confluence Cloud as a modern, collaborative workspace.
 ---
-## Snapshot
-### ✨ Highlights
-- Scaled design from 3 designers to 10+ designers
-- Developed and maintained processes for our growing team
-- Strategic partner on Confluence’s Next Play strategy
-- Reinvented Confluence as a collaborative tool for every team
+## Case study
+
+Confluence was having a midlife crisis. Traditionally catering to more technical teams, it had grown complex and confusing over time. Many teams saw it simply as "Jira Docs," or their corporate "Wiki". Meanwhile, products like Notion were showing teams what collaborative content workspaces could actually look and feel like. Our future success required significant evolution.
+
+We were tasked with reinventing Confluence Cloud as a collaborative workspace for all teams. This required us to reimagine our product strategy, experience and go-to-market motion from the ground up.
 
 ### 🎯 Impact
-- Increased YoY growth from ~40% to 52%
-- Increased ARR by over 400%
+- **Increased growth** - YoY growth went from ~40% to 52% and ARR increased by over 400%
+- **Scaled the design team** - Grew from 3 to 12+ designers while maintaining quality
+- **Defined product direction** - Co-authored the strategy that guided 3+ years of development
+- **Improved core experiences** - Redesigned everything from page creation to content organization
 
 ---
 
-## Summary
+## Snapshots
 
-During my time on Confluence, we scaled the design team from 3 to 12+ designers while delivering a strategy and vision for the product that would guide the next 3+ years of development. This page provides a snapshot from a larger case study that I've prepared for past panel presentations.
+### Confluence's Next Play
 
-> 📫 Want to learn more about my work or go deeper on a case study? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
+Confluence was losing ground to newer collaboration tools. Our user feedback was consistent: the product felt complex and outdated. Growth was slowing, and teams were choosing competitors that felt more modern and intuitive.
 
-## Confluence's Next Play
-In collaboration with my cross-functional partners and Atlassian's executive team, we developed a 6-pager strategy to reinvent Confluence. Our goal was to reinvent Confluence as a modern, collaborative workspace for every team. Confluence's Next Play would guide the next 3+ years of development.
+We had a large user base of mostly technical users, but adjacent, non-technical teams found Confluence hard to adopt. The experience felt stuck in the past while competitors were defining what modern collaboration should look like.
 
-![Our 6-pager strategy to reinvent Confluence](/assets/work/confluence/Confluence01.png)
-*Our 6-pager strategy to reinvent Confluence*
-![3 strategic pillars](/assets/work/confluence/Confluence02.png)
-*3 strategic pillars*
+#### Approach
+Instead of making incremental improvements, our leadership team collaborated on a comprehensive strategy called "Confluence's Next Play," a plan to transform Confluence from a technical wiki into a modern, collaborative workspace.
 
-## Show, don't tell
-During the strategy workshops, I teamed up with Confluence's lead designers to envision Confluence's Next Play. The goal of this exercise was to render our strategy and to align and inspire our team. Use the image slider to compare the before and after screenshots.
+![Our strategy document for transforming Confluence](/assets/work/confluence/Confluence01.png)
+*Our strategy document for transforming Confluence*
+
+![3 strategic pillars: simplify the product, fix our broken funnel, and a more tailored experience](/assets/work/confluence/Confluence02.png)
+*3 strategic pillars: simplify the product, fix our broken funnel, and a more tailored experience*
+
+#### Impact
+This strategy became our north star for the next 3+ years. It aligned our organization around a clear vision and contributed to significant growth. YoY growth increased from around 40% to 52%, and ARR grew by over 400%.
+
+### Show, don't tell
+
+Strategy documents are easy to write but not always immediately understood across a large organization. We needed everyone (designers, engineers, product managers) to feel fully bought in to directions we'd set.
+
+#### Approach
+I worked with our lead designers to create a complimentary set of mockups and vignettes showing what Confluence could look like after our transformation. Our goal was to render our strategy visually so that teams felt more connected to our overarching principles and directions.
 
 {% include image-compare.html 
   before="/assets/work/confluence/comparisons/01.png"
   after="/assets/work/confluence/comparisons/02.png"
   before_alt="Before"
   after_alt="After"
-  caption="Your work" %}
+  caption="Your work: From information overload to personalized, useful dashboard" %}
 
 {% include image-compare.html 
   before="/assets/work/confluence/comparisons/03.png"
   after="/assets/work/confluence/comparisons/04.png"
   before_alt="Before"
   after_alt="After"
-  caption="Space directory" %}
+  caption="Space directory: From long lists to visual, organized spaces" %}
 
 {% include image-compare.html 
   before="/assets/work/confluence/comparisons/05.png"
   after="/assets/work/confluence/comparisons/06.png"
   before_alt="Before"
   after_alt="After"
-  caption="Searching for a page" %}
+  caption="Search: From basic text search to contextual content discovery" %}
 
 {% include image-compare.html 
   before="/assets/work/confluence/comparisons/07.png"
   after="/assets/work/confluence/comparisons/08.png"
   before_alt="Before"
   after_alt="After"
-  caption="Page options and metadata" %}
+  caption="Page metadata: From ad-hoc to organized" %}
 
 {% include image-compare.html 
   before="/assets/work/confluence/comparisons/09.png"
   after="/assets/work/confluence/comparisons/10.png"
   before_alt="Before"
   after_alt="After"
-  caption="Choosing a template" %}
+  caption="Templates: From clunky to streamlined" %}
 
 {% include image-compare.html 
   before="/assets/work/confluence/comparisons/13.png"
   after="/assets/work/confluence/comparisons/14.png"
   before_alt="Before"
   after_alt="After"
-  caption="Inline apps and macros" %}
+  caption="Macros: From many confusing steps to always at your fingertips" %}
 
-## Competitive product mapping
-During this time, I was also encouraging the team to push on the edges of our product design and IA. One method I used to help unlock new creative directions was to map Confluence's objects and information architecture on top of a competitor's product. One such example of this was mapping Confluence's objects and IA on top of InVision. Although not intended to be a shippable design, this exploration generated a lot of buzz and would influence the future direction of Atlassian's navigation redesign. Confluence + InVision = Influence 😉
+  
+#### Impact
+These designs helped start a rallying cry. By making stratgy visual, steam across Confluence could more easily prioritize projects that supported the vision, and leadership could communicate our direction clearly. This allowed us to successfully generated excitement across Atlassian about where Confluence was heading.
+
+### Learning from competitors
+
+Our design team was deeply familiar with Confluence's existing patterns, which sometimes limited our thinking. To reinvent Confluence we needed to get out of our comfort zone and explore new systems, patterns, and ideas.
+
+#### Approach
+I introduced an exercise where we mapped Confluence's content, information architecture and workflows onto competitors' interfaces. This helped us see our own product with fresh eyes and explore new possibilities.
+
+One exploration mapped Confluence onto InVision's interface, creating a hybrid we called "Influence." While not meant for production, it sparked new thinking about navigation and content organization.
 
 ![Mapping Confluence's objects and IA on top of InVision](/assets/work/confluence/influence/01.png)
 *Mapping Confluence's objects and IA on top of InVision*
@@ -92,17 +113,34 @@ During this time, I was also encouraging the team to push on the edges of our pr
 ![Mapping Confluence's objects and IA on top of InVision](/assets/work/confluence/influence/03.png)
 *Mapping Confluence's objects and IA on top of InVision*
 
-## Building momentum
-With our strategy and vision in hand, we needed to onboard our team to the new direction. Alongside my leadership team, we planned and facilitated a series of workshops to generate energy and momentum for Confluence's Next Play.
+#### Impact
+These explorations pushed our thinking beyond incremental improvements. Ideas from this exercise influenced Atlassian's later navigation redesign and helped our team see new possibilities for how collaborative tools could work.
+
+### Building momentum & aligning teams
+
+Good strategies fail when teams don't understand or embrace them. Our design team was growing quickly, and we needed everyone to feel ownership of Confluence's new direction.
+
+#### Approach
+I ran workshops that brought our strategy to life for the entire team. These weren't presentations but working sessions where designers, product managers, and engineers explored what our strategy meant for their specific projects.
+
 ![Workshopping Confluence's Next Play](/assets/work/confluence/Confluence07.png)
 *Workshopping Confluence's Next Play*
 ![Workshopping Confluence's Next Play](/assets/work/confluence/Confluence08.png)
 *Workshopping Confluence's Next Play*
 
-## Execution
-Confluence's Next Play would drive the next 3+ years of development. These are just a couple of examples of projects we delivered during the 18 months following the delivery of our strategy and vision.
-### Drag and drop
-A low hanging fruit effort to improve the usability of reordering pages in Confluence. The byproduct of this effort was an increase in the # of users reordering pages and the # of pages moved. Encouraging signals for a product whose success would be rooted in managing the needs of ever larger teams. A more organized space is a more productive space.
+#### Impact
+These workshops created shared ownership of our direction. Teams stopped asking "What should we build?" and started asking "How does this fit our strategy?" Everyone became an advocate for our vision instead of just following orders.
+
+### Turning strategy into meaningful progress
+
+Strategy only matters if you can execute on it. We needed to deliver improvements that users could feel while building toward our longer-term vision.
+
+#### Approach
+Over 18 months, we shipped projects that both solved immediate problems and demonstrated our strategic direction. Each project was valuable on its own but also moved us toward our larger goal.
+
+**Drag and Drop: Making Organization Simple**
+Users complained that organizing content in Confluence was clunky. This project made page reordering as simple as dragging and dropping.
+
 {% include image-compare.html 
   before="/assets/work/confluence/comparisons/15.png"
   after="/assets/work/confluence/comparisons/16.png"
@@ -111,8 +149,16 @@ A low hanging fruit effort to improve the usability of reordering pages in Confl
   caption="Drag and drop" %}
 ![Impact](/assets/work/confluence/Confluence11.png)
 *Impact*    
-### The Confluence editor
-One of the most complex projects in Confluence's history. Redesigning the editor for a large active user base with a myriad of complex and nuanced use cases required a deeply researched and thorough design effort. Huge kudos to Jazz Ernest for leading the design effort.
+
+**The New Editor: Managing Complexity at Scale**
+Redesigning the editor was one of the most complex projects in Confluence's history. Millions of active users relied on it daily, each with specific workflows and expectations. Any misstep could break existing user habits while failing to attract new users.
+
+The challenge wasn't just design but managing risk across a massive, active user base while delivering a fundamentally better experience.
+
+My role focused on three areas: coaching the design team through the complexity, triaging experience risks as they emerged, and making tough calls about rollout milestones.
+
+We built a gradual rollout process with clear graduation criteria for each milestone. Rather than launching everything at once, we shipped functionality in stages, measuring CSAT and user sentiment at each step.
+
 {% include image-compare.html 
   before="/assets/work/confluence/Confluence12.png"
   after="/assets/work/confluence/Confluence13.png"
@@ -120,11 +166,28 @@ One of the most complex projects in Confluence's history. Redesigning the editor
   after_alt="After"
   caption="The Confluence editor" %}
 
-## Team culture
-It was an immense privilege to lead the Confluence design team.
-![Team offsite in Sydney](/assets/work/confluence/Confluence14.png)
-*Team offsite in Sydney*
-![Goofing off](/assets/work/confluence/Confluence15.png)
-*Goofing off*
+The rollout wasn't smooth. CSAT scores fluctuated, dropping from 4.2 to 3.8 at one point before recovering to 4.4. Each dip required quick decisions: Do we pause the rollout? Address specific issues? Push forward?
+
+I made several clean escalations to leadership when experience risks threatened the project timeline. Issues like migration journey complexity and split-brain tolerance between old and new editors required executive-level decisions about scope and timeline.
+
+Jazz Ernest led the design work brilliantly, but my job was ensuring the overall experience quality and making the hard calls about when we were ready to move forward.
+
+#### Impact
+These projects proved our strategy was working. Users responded well to changes that made Confluence feel more intuitive. Each success built confidence in our direction and momentum for bigger changes.
+
+### Growing the team and evolving our culture
+Growing from 3 to 12+ designers while maintaining quality and team culture is tough. We needed to hire quickly without compromising standards or losing what made our team work well together.
+
+I built systems that let us scale thoughtfully: clear hiring criteria that balanced skills with cultural fit, onboarding that helped new designers succeed quickly, and design processes that worked across different locations and time zones.
+
+![Team offsite in Sydney, taking time out to play](/assets/work/confluence/Confluence14.png)
+*Team offsite in Sydney, taking time out to play*
+![The team not taking ourselves too seriously](/assets/work/confluence/Confluence15.png)
+*The team not taking ourselves too seriously*
+
+## Reflections
+Leading design at Confluence taught me that product transformation requires both clear vision and careful execution. You can't just redesign screens but help an entire organization see their product differently.
+
+The strategy we developed changed how Confluence understood itself: from a company that built wikis to one that created collaborative workspaces. That shift in identity enabled everything else we accomplished.
 
 > 📫 Want to learn more about my work or go deeper on a case study? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.

@@ -9,11 +9,12 @@ logo: /assets/imgs/logos/trello.svg
 highlights: Led a team of 25+ designers while operationalizing experience quality across the organization.
 ---
 
-## Snapshot
-### ✨ Highlights
+## Case study
+
 Trello was growing fast but its experience was fragmenting. Our team had nearly doubled in size while simultaneously experiencing significant turnover as many original Trellists moved on to new challenges. Meanwhile, rapid feature development across multiple squads aimed at monetizing our established user base was making our product experience inconsistent and negatively impacting our users.
 
-We faced a multi-part challenge: scale our team, operationalize design quality, and grow our bottom line—all while preserving what made Trello special.
+We faced a multi-part challenge: scale our team, operationalize design quality, and grow our bottom line, all while preserving what made Trello special.
+
 ### 🎯 Impact
 - **Operationalized experience quality** - Increased CSAT from 86% to 89% and our cross-functional "Proud to Ship" metric from 45% to 55%
 - **Built lasting team culture** - Developed a design team charter, purpose, and values that became the bedrock of our culture for 3+ years
@@ -22,13 +23,12 @@ We faced a multi-part challenge: scale our team, operationalize design quality, 
 
 ---
 
-## Case studies
+## Snapshots
 
 > 📢 Atlassian recently launched [Trello 2.0](https://www.atlassian.com/blog/trello), reflecting many of the foundations we established during my tenure.
 
 ### Operationalizing experience quality
 
-#### Challenge
 Experience quality, historically Trello's strength, was slipping. We were in a feature race and squads were optimizing for speed over quality. There was no clear definition of what "quality" meant across the organization and we lacked incentives for teams to prioritize it.
 
 #### Approach
@@ -45,9 +45,6 @@ This effort directly contributed to a 3% increase in CSAT and a 10% improvement 
 
 ### Design team charter
 
-🔗 [Learn more about this workshop]({% link methods/team-charter.md %})
-
-#### Challenge
 With the team growing fast and significant recent turnover, many new designers were joining without understanding what made Trello's design culture unique. Meanwhile, tenured designers were concerned we were losing what made Trello such a special place to work. We needed to preserve the most important parts of the unique culture the team had built over previous years while evolving it for continued success.
 
 #### Approach
@@ -65,9 +62,10 @@ To preserve and evolve what made our team unique, I planned and led a [charter w
 #### Impact
 This design team charter became a cornerstone of our culture for the next 3+ years. Team members still reference these values in design critiques, hiring conversations, and strategic decisions.
 
+🔗 [Learn more about this workshop]({% link methods/team-charter.md %})
+
 ### Visual roadmap
 
-#### Challenge
 During a period of rapid new feature development, our product experience started to fragment. Multiple squads were building features in isolation, and Trellists struggled to see how individual projects connected to a broader vision.
 
 #### Approach
@@ -90,11 +88,10 @@ This visual roadmap became a key artifact for the organization to develop a shar
 
 ### What if, Trello?
 
-#### Challenge
 Building off the success of our visual roadmap, we wanted to push beyond incremental improvements and shine a light on Trello's brightest possible future. We needed to inspire the team to think bigger while generating ambitious ideas that could spark new conversations with our stakeholders and executive team.
 
 #### Approach
-I challenged the design team with an invitation to play. The question was simple: Putting aside today's constraints and the fear of failure, what could Trello become? This exercise asked designers to imagine many different possible futures for Trello—creating concepts that would inspire our team and provoke entirely new ways of thinking about our experience and product.
+I challenged the design team with an invitation to play. The question was simple: Putting aside today's constraints and the fear of failure, what could Trello become? This exercise asked designers to imagine many different possible futures for Trello, creating concepts that would inspire our team and provoke entirely new ways of thinking about our experience and product.
 
 ![The call to action I shared with the team](/assets/work/trello/Trello09.png)
 *The call to action I shared with the team*
@@ -116,7 +113,6 @@ While not every concept was designed to ship, this exercise fundamentally change
 
 ### Design leadership roles & responsibilities
 
-#### Challenge
 As our design team scaled to 25+ people, we needed new models for design leadership that went beyond traditional management hierarchies. With an organizational emphasis on experience quality, we needed ways to empower our most experienced individual contributors to drive impact across the organization.
 
 #### Approach
@@ -130,8 +126,8 @@ This framework empowered lead & principal designers to drive quality and culture
 
 ---
 
-### The bigger picture
-Leading design at Trello reinforced that scaling isn't just about adding people—it's about creating an environment that helps teams do their best work. The frameworks we built didn't just survive my time there; they became part of how Trello operates to this day.
+### Reflections
+Leading design at Trello reinforced that scaling isn't just about adding people but creating an environment that helps teams do their best work. The frameworks we built didn't just survive my time there; they became part of how Trello operates to this day.
 
 > 📫 Want to learn more about my work or go deeper on a case study? [Get in touch](https://linkedin.com/in/liamgreig).
 

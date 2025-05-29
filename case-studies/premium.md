@@ -8,17 +8,17 @@ date-range: "2019-2021"
 logo: /assets/imgs/logos/premium.svg
 highlights: Owned the end-to-end delivery of Atlassian Free and Premium plans across Jira and Confluence.
 ---
-## Snapshot
-### ✨ Challenge
-Atlassian’s cloud growth had slowed. Our single, per-user pricing tier created friction at both ends of the market—too expensive for startups, too limited for enterprises considering cloud migration.
+## Case study
+
+Atlassian's cloud growth had slowed. Our single, per-user pricing tier created friction at both ends of the market - too expensive for startups, too limited for enterprises considering cloud migration.
 
 Our product architecture reflected this constraint. Billing systems, user management, and product experiences were all built around legacy decisions that better reflected our server roots than our cloud-based future. We needed to redesign the entire pricing & packaging customer journey from first impression to enterprise scale.
 
 ### 🎯 Impact
-- **Opened the cloud funnel** — Free and Premium plans removed barriers for millions of potential users
-- **Accelerated growth** — Increased cloud revenue percentage from 50% to 60% within one year
-- **Delivered significant revenue impact** — Contributed to over $100M revenue increase between Q1 2020 and Q1 2021
-- **Unified fragmented experiences** — Created consistent end-to-end pricing & packaging journeys across all Atlassian products and tiers
+- **Opened the cloud funnel** - Free and Premium plans removed barriers for millions of potential users
+- **Accelerated growth** - Increased cloud revenue percentage from 50% to 60% within one year
+- **Delivered significant revenue impact** - Contributed to over $100M revenue increase between Q1 2020 and Q1 2021
+- **Unified fragmented experiences** - Created consistent end-to-end pricing & packaging journeys across all Atlassian products and tiers
 
 ---
 
@@ -35,11 +35,10 @@ Our product architecture reflected this constraint. Billing systems, user manage
 
 ---
 
-## Case studies
+## Snapshots
 
 ### Building cross-team commitment
 
-#### Challenge
 As Atlassian's first principal designer, my role wasn't clearly defined. Teams across the organization had competing priorities, and program-level needs often took a backseat to individual team needs. To deliver the best possible experience, I needed buy-in from design leaders, stakeholders and contributing designers to prioritize this work. 
 
 #### Approach
@@ -67,7 +66,6 @@ This approach built genuine commitment and set clear expectations. Teams underst
 
 ### Defining the end-to-end experience
 
-#### Challenge
 I joined the program midstream with customer-facing milestones approaching fast. Work was fragmented across teams with no unified direction for the end-to-end experience. I needed to quickly assess the landscape and align our teams around a shared vision.
 
 #### Approach
@@ -93,7 +91,6 @@ These frameworks became our shared language. Instead of teams working in isolati
 
 ### Managing experience risk
 
-#### Challenge
 With so many teams working in parallel on tight deadlines, experience risks were inevitable. Program management focused on delivery timelines, not user experience quality so we needed a way to identify and address experience problems before they reached customers.
 
 #### Approach
@@ -105,7 +102,7 @@ Using our end-to-end journeys as a foundation, we created an experience risk reg
 ![Risk register detail](/assets/work/vanguard/Vanguard28.png)
 *Each risk included clear owners, severity, and mitigation plans*
 
-When high-priority risks emerged, I packaged them into "clean escalations"—clear presentations of the problem, impact, and recommended solutions that leadership could act on quickly.
+When high-priority risks emerged, I packaged them into "clean escalations" - clear presentations of the problem, impact, and recommended solutions that leadership could act on quickly.
 
 ![Clean escalation example](/assets/work/vanguard/Vanguard33.png)
 *Clean escalations focused on user impact and business consequences*
@@ -115,8 +112,7 @@ This proactive approach prevented major experience failures from reaching custom
 
 ### Sweating the details
 
-#### Challenge
-Even with strong frameworks and processes in place, some experiences needed me to get hands-on with the work. Managing subscriptions was a perfect example. The product team had introduced multiple layers of conditional logic to promote different actions depending on the user's current plan—smart from a business perspective, but it was creating a confusing experience for users. 
+Even with strong frameworks and processes in place, some experiences needed me to get hands-on with the work. Managing subscriptions was a perfect example. The product team had introduced multiple layers of conditional logic to promote different actions depending on the user's current plan, smart from a business perspective, but it was creating a confusing experience for users. 
 
 #### Approach
 I stepped in to collaborate directly on redesigning these screens. My focus was on creating consistency and clarity across different plan types while still meeting the business requirements. We needed to reduce the competing calls-to-action and simplify the decision-making process without losing the ability to guide users toward the right next steps.
@@ -145,10 +141,10 @@ The redesign showed that we could meet complex business requirements while still
 
 ---
 
-## The Bigger Picture
+## Reflections
 
 Looking back, Free and Premium was was an opportunity for personal and profressional growth. It was the first time I'd led a program this complex, and it taught me a lot about what it takes to coordinate design work across multiple teams and competiting, agressive timelines.
 
-The frameworks we built—starman diagrams, end-to-end journey mapping, experience risk registers, clean escalations—weren't revolutionary, but they worked. Our efforts during this program, and the approach became a template for how Atlassian tackled complex, cross-functional programs in the future.
+The frameworks we built (starman diagrams, end-to-end journey mapping, experience risk registers, clean escalations) weren't revolutionary, but they worked. Our efforts during this program, and the approach became a template for how Atlassian tackled complex, cross-functional programs in the future.
 
 > 📫 Want to learn more about my work or go deeper on a case study? [Get in touch](https://linkedin.com/in/liamgreig).
