@@ -1,0 +1,50 @@
+/**
+ * Blog Styles
+ */
+.blog-page {
+  @extend .work-page;
+  padding-top: 0; // Remove the fixed header spacing for blog posts
+  
+  // Ensure blog posts get the same heading styles as work pages
+  h1.post-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 300; // Match your work page h1 style
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+    color: #111;
+  }
+  
+  h4 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #111;
+  }
+}
+
+// Additional blog-specific styles can go here
+.post-meta {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+// Blog index/list page styles (for when you create blog.html)
+.blog-index {
+  .post-preview {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+    
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+} 
