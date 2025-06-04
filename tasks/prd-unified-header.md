@@ -25,14 +25,14 @@ This feature will establish a single, consistent header system across all pages 
 
 ## Functional Requirements
 
-1. **All pages must use page-header.html** - Every page type (work, method, post, generic pages, 404) should include the page-header.html component
+1. **Unified page-header across all content pages** - Every page type except home (work, method, post, generic pages, 404) should use the page-header.html component
 2. **No duplicate headers** - Pages must not display both the site header and page-header simultaneously
-3. **Preserve breadcrumb navigation** - All pages must show appropriate breadcrumbs (e.g., "Liam/Blog/Post Title")
-4. **Maintain prev/next navigation** - Blog posts and work/method pages must retain existing prev/next functionality
-5. **Adaptive content** - Header content must adapt based on page type (blog posts show blog breadcrumb, work pages show work breadcrumb)
-6. **Default layout integration** - The default.html layout must not include a separate site header
-7. **Home page exception handling** - Pages that need the simple site header (like home) must explicitly include it
-8. **404 page consistency** - Error pages must use the unified header system
+3. **Preserve home page hero** - The home page must maintain its custom hero implementation (hero.html) that displays "Hi, I'm Liam" content
+4. **Consistent breadcrumb navigation** - All content pages must show appropriate breadcrumbs (e.g., "Liam/Blog/Post Title", "Liam/Page Title")
+5. **Maintain prev/next navigation** - Blog posts and work/method pages must retain existing prev/next functionality
+6. **Adaptive content** - Header content must adapt based on page type (blog posts show blog breadcrumb, work pages show work breadcrumb, generic pages show page breadcrumb)
+7. **Home page exception** - Only the home page should display the hero, all other pages use page-header
+8. **Complete header consistency** - 404 and generic pages should use page-header for unified navigation experience
 
 ## Non-Goals (Out of Scope)
 
@@ -68,17 +68,20 @@ This feature will establish a single, consistent header system across all pages 
 
 ## Implementation Approach
 
-### Phase 1: Core Layout Changes
-- Remove `{%- include header.html -%}` from `_layouts/default.html`
-- Ensure all page layouts that use `page-header.html` continue to work correctly
+### Phase 1: Analyze Current Header Logic
+- Review how `_includes/header.html` conditionally displays hero vs site header vs nothing
+- Understand the page layout detection logic already in place
+- Identify why some pages show duplicate headers
 
-### Phase 2: Exception Handling  
-- Add `{%- include header.html -%}` to layouts that specifically need the site header
-- Update `_layouts/home.html`, `_layouts/page.html`, and `404.html` as needed
+### Phase 2: Fix Duplicate Header Issues
+- Ensure pages using `page-header.html` don't also trigger site header display
+- Update conditional logic in `_includes/header.html` if needed
+- Test that blog posts show only page-header (no site header)
 
 ### Phase 3: Validation
 - Test all page types to confirm single header display
-- Verify breadcrumb and navigation functionality
+- Verify home page hero functionality remains intact
+- Confirm breadcrumb and navigation functionality
 - Confirm no visual regressions
 
 ## Open Questions
