@@ -1122,3 +1122,7 @@
     }
   }
 }
+
+.blog-page {
+  @extend .work-page;
+}
