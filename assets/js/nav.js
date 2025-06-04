@@ -1,5 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
   const nav = document.querySelector('.work-nav');
+  
+  // Exit early if nav element doesn't exist on this page
+  if (!nav) {
+    return;
+  }
+  
   let lastScroll = window.scrollY;
   let showNavTimer = null;
   
