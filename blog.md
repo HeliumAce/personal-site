@@ -5,13 +5,15 @@ title: Blog
 
 {% include page-header.html %}
 
-<h1>Latest Posts</h1>
+<div class="blog-page">
+    <h1>Latest Posts</h1>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+    <ul>
+    {% for post in site.posts %}
+        <li>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {{ post.excerpt }}
+        </li>
+    {% endfor %}
+    </ul>
+</div>
