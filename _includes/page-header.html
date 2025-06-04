@@ -43,22 +43,33 @@
         {% endif %}
       {% endfor %}
     {% elsif page.layout == "post" %}
-      {% assign post_index = site.posts | map: 'url' | index: page.url %}
-      {% assign prev_post = site.posts[post_index | plus: 1] %}
-      {% assign next_post = site.posts[post_index | minus: 1] %}
+      {% assign post_index = null %}
+      {% for post in site.posts %}
+        {% if post.url == page.url %}
+          {% assign post_index = forloop.index0 %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
       
-      {% if prev_post %}
-        <a href="{{ prev_post.url }}" class="nav-link prev-link" data-title="{{ prev_post.title }}">
-          <img src="/assets/imgs/icons/icon-previous.svg" alt="" width="16" height="16">
-          <span class="nav-text">Prev</span>
-        </a>
-      {% endif %}
-      
-      {% if next_post %}
-        <a href="{{ next_post.url }}" class="nav-link next-link" data-title="{{ next_post.title }}">
-          <span class="nav-text">Next</span>
-          <img src="/assets/imgs/icons/icon-next.svg" alt="" width="16" height="16">
-        </a>
+      {% if post_index != null %}
+        {% assign prev_post_index = post_index | plus: 1 %}
+        {% assign next_post_index = post_index | minus: 1 %}
+        
+        {% if prev_post_index < site.posts.size %}
+          {% assign prev_post = site.posts[prev_post_index] %}
+          <a href="{{ prev_post.url }}" class="nav-link prev-link" data-title="{{ prev_post.title }}">
+            <img src="/assets/imgs/icons/icon-previous.svg" alt="" width="16" height="16">
+            <span class="nav-text">Prev</span>
+          </a>
+        {% endif %}
+        
+        {% if next_post_index >= 0 %}
+          {% assign next_post = site.posts[next_post_index] %}
+          <a href="{{ next_post.url }}" class="nav-link next-link" data-title="{{ next_post.title }}">
+            <span class="nav-text">Next</span>
+            <img src="/assets/imgs/icons/icon-next.svg" alt="" width="16" height="16">
+          </a>
+        {% endif %}
       {% endif %}
     {% endif %}
   </div>
