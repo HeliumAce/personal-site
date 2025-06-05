@@ -1176,3 +1176,14 @@
 .blog-page {
   @extend .work-page;
 }
+
+/* Blog posts keep breadcrumb to Blog on mobile */
+.page-header .breadcrumb {
+  @media screen and (max-width: 640px) {
+    /* For blog posts, show path back to blog listing */
+    .separator:first-of-type,
+    a[href="/blog.html"] {
+      display: inline !important;
+    }
+  }
+}
