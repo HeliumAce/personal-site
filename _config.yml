@@ -72,4 +72,5 @@ webrick:
       frame-src 'self' https://www.youtube-nocookie.com;
       img-src 'self' data: https:;
       script-src 'self' 'unsafe-inline';
-      style-src 'self' 'unsafe-inline';
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+      font-src 'self' https://fonts.gstatic.com;

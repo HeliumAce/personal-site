@@ -564,10 +564,30 @@
     display: flex;
     align-items: center;
     gap: 8px;
+    color: rgba(255, 255, 255, 0.85);
+    
+    .back-link {
+      color: white;
+      opacity: 0.85;
+      
+      &:hover {
+        opacity: 1;
+      }
+    }
+    
+    a:not(.back-link) {
+      color: inherit;
+      text-decoration: none;
+      transition: opacity 0.2s ease;
+      
+      &:hover {
+        opacity: 1;
+      }
+    }
     
     .separator,
     .current {
-      color: rgba(255, 255, 255, 0.85);
+      color: inherit;
       
       @media screen and (max-width: 640px) {
         display: none;
@@ -1123,6 +1143,53 @@
   }
 }
 
+/* Blog page header adjustment - no logo so different grid template */
+.blog-page .page-work-header .header-content {
+  grid-template-columns: 1fr auto;
+  
+  @media screen and (max-width: $on-laptop) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    .page-work-meta {
+      text-align: left;
+      margin-top: 4px;
+    }
+  }
+}
+
+/* Blog listing page responsive behavior - smallest screens only */
+.blog-page .post-header {
+  @media screen and (max-width: 640px) {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    
+    .post-meta {
+      text-align: left;
+      margin-top: 4px;
+    }
+  }
+}
+
 .blog-page {
   @extend .work-page;
+}
+
+/* Blog posts keep breadcrumb to Blog on mobile */
+.page-header .breadcrumb {
+  @media screen and (max-width: 640px) {
+    /* Show Blog link */
+    a[href="/blog.html"] {
+      display: inline !important;
+    }
+
+    /* Add separator before Blog link via CSS content */
+    a[href="/blog.html"]:before {
+      content: " / ";
+      margin-right: 0.23rem;
+      display: inline !important;
+    }
+  }
 }
