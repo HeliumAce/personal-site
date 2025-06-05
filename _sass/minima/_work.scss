@@ -1180,9 +1180,15 @@
 /* Blog posts keep breadcrumb to Blog on mobile */
 .page-header .breadcrumb {
   @media screen and (max-width: 640px) {
-    /* For blog posts, show path back to blog listing */
-    .separator:first-of-type,
+    /* Show Blog link */
     a[href="/blog.html"] {
+      display: inline !important;
+    }
+
+    /* Add separator before Blog link via CSS content */
+    a[href="/blog.html"]:before {
+      content: " / ";
+      margin-right: 0.23rem;
       display: inline !important;
     }
   }
