@@ -20,7 +20,7 @@ This was my light switch moment.
 
 Suddenly my ideas flowed onto screen like ink on paper. I was exploring new languages, breaking and fixing code, trying things that had been completely out of reach. It was as close to magic as anything I'd experienced throughout all my years in tech. I was hooked.
 
-The following weekend, my 8-year-old daughter woke up with an idea: a website to help people find the perfect cat breed and learn how to care for them. Six hours later, with my daughter, Claude, and Lovable at my side, Cat Breed Explorer was live. A simple but powerful case study on just how much the world had suddenly changed.  
+The following weekend, my 8-year-old daughter woke up with an idea: a website to help people find the perfect cat breed and learn how to care for them. Six hours later, with my daughter, Claude, and Lovable at my side, [Cat Breed Explorer](https://cat-breed-explorer.lovable.app/ "Cat Breed Explorer") was live. A simple but powerful case study on just how much the world had suddenly changed.  
 
 Could I have built this before? Technically, yes. Would it have taken weeks? Absolutely. Would it have ever actually happened? No chance.
 
@@ -38,7 +38,7 @@ For the past few weeks I've been ruminating on the collaborative strengths of AI
 
 ### Capturing the moment
 
-Just as AI is evolving, so am I. From a designer who works on technology to a technologist with a background in design. I've heard this called a generalist specialist, a curious builder. Whatever you call it, it's the most fun I've had tinkering and making in my entire career.
+Just as AI is evolving, so am I. From a designer who works on technology to a technologist with a love of design. I've heard this called a [generalist specialist](https://www.chatprd.ai/blog/product-management-is-dead "Product Management is Dead, Claire Vo"), or simply a [_builder_](https://lg.substack.com/i/163669945/identity-attachment-identity-expansion "The Thing You Are Expert at Will Be Your Career Downfall, Julie Zhuo"). Whatever you call it, it's the most fun I've had tinkering and making in my entire career.
 
 This is the first of hopefully many more posts. Letters to myself to document the joy of making and building with AI, and to think through what it all means. To appreciate, and interrogate, this very special moment in time.
 
