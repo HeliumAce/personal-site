@@ -9,23 +9,20 @@ order: 1
 
 ## Summary
 
-This page is a collection of systems thinking methods and artefacts that I've developed over the years.
+Much of my design practice has been rooted in systems thinking. This page includes a collection of systems thinking methods and artefacts that I've developed over the years. 
 
 > 📫 Want to learn more about my methods or go deeper on a case study? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
 
-## Object-oriented UX
+## Object models
 
-### Certification
+Object models offer a practical method for understanding the objects within a system and the relationship between them. When joining a new team, I've found these models offer an accelerated understanding of the product and domain while also assisting with alignment across design, product, and engineering teams.
 
-I recently completed the Object-Oriented UX strategist certification. Following the ORCA (Objects, Relationships, CTAs, Attributes) process, OOUX offers a repeatable, pragmatic approach to delivering high-quality, consistent experiences by focusing on nouns before verbs. Having baked the ORCA process into my recent client work, I'm looking forward to sharing this process with in-house product teams.
-
-![ORCA](/assets/methods/systems-thinking/ooux/01.png)
-
-### Object models
-
-Although recently certified in OOUX, I've been using a similar approach to unpacking a product's objects and relationships throughout my career. When joining a new team, these models offer an accelerated understanding of the product and domain while also assisting with alignment across design, product, and engineering teams.
+Much of the credit for the models shown here goes to a former mentor and stellar design, [Guillaume Thoreau](https://www.linkedin.com/in/guillaumethoreau/). 
 
 ### Bitbucket
+
+Joining Bitbucket in 2015 presented a set of unique challenges as a designer and leader. Not only was the design team 
+
 ![Bitbucket object model](/assets/methods/systems-thinking/bitbucket/01.png)
 *Basic object model*
 ![Bitbucket relationship model](/assets/methods/systems-thinking/bitbucket/02.png)
@@ -78,6 +75,14 @@ The following models were created to simplify the problem space and propose a pa
 *Unified architecture and container model*
 ![Snippet from the blog share with Atlassian](/assets/methods/systems-thinking/megacloud/06.png)
 *Snippet from the blog share with Atlassian*
+
+## Object-oriented UX
+
+### Certification
+
+I recently completed the Object-Oriented UX strategist certification. Following the ORCA (Objects, Relationships, CTAs, Attributes) process, OOUX offers a repeatable, pragmatic approach to delivering high-quality, consistent experiences by focusing on nouns before verbs. Having baked the ORCA process into my recent client work, I'm looking forward to sharing this process with in-house product teams.
+
+![ORCA](/assets/methods/systems-thinking/ooux/01.png)
 
 
 
