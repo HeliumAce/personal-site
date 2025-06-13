@@ -9,19 +9,25 @@ order: 1
 
 ## Summary
 
-Much of my design practice has been rooted in systems thinking. This page includes a collection of systems thinking methods and artefacts that I've developed over the years. 
+This page collects systems thinking methods and artifacts I've developed over the years to understand complex products and domains quickly.
 
 > 📫 Want to learn more about my methods or go deeper on a case study? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
 
 ## Object models
 
-Object models offer a practical method for understanding the objects within a system and the relationship between them. When joining a new team, I've found these models offer an accelerated understanding of the product and domain while also assisting with alignment across design, product, and engineering teams.
+Object models provide x-ray vision into the structure and relationships between primary objects within a system. They're invaluable for onboarding to new product areas and often unlock innovative product experiences that might otherwise be missed.
 
-Much of the credit for the models shown here goes to a former mentor and stellar design, [Guillaume Thoreau](https://www.linkedin.com/in/guillaumethoreau/). 
+**Use this method when you need to:**
+- Quickly understand a new product or domain
+- Accelerate kickoff and initial designs for new products
+- Generate novel ideas for displaying objects or views
+- Build alignment with developers
+
+*Credit: Much of this method comes from former mentor and stellar designer [Guillaume Thoreau](https://www.linkedin.com/in/guillaumethoreau/).*
 
 ### Bitbucket
 
-Joining Bitbucket in 2015 presented a set of unique challenges as a designer and leader. Not only was the design team 
+These object models were created early in my Bitbucket tenure. What made them unique was defining not only the primary objects and relationships within our product, but also how they relate to Git's native objects.
 
 ![Bitbucket object model](/assets/methods/systems-thinking/bitbucket/01.png)
 *Basic object model*
@@ -39,7 +45,9 @@ Joining Bitbucket in 2015 presented a set of unique challenges as a designer and
 *Pull request object*
 
 ### Uplay
-An earlier example of an object model created during my time at Ubisoft for their Uplay platform. 
+
+An earlier example from my time at Ubisoft for their Uplay gaming platform.
+
 ![User object](/assets/methods/systems-thinking/uplay/01.jpg)
 *User object*
 ![Game object](/assets/methods/systems-thinking/uplay/02.jpg)
@@ -56,15 +64,16 @@ An earlier example of an object model created during my time at Ubisoft for thei
 *Video object*
 
 ## Billing models
-During the push to deliver Atlassian Enterprise plans, we struggled with the complexity and inconsistency of Atlassan product architecture and billing systems. Atlassian had a product mix that included pure SaaS products that were billed on a per-user basis, such as Bitbucket and Trello, and also products that belonged to a multi-product site, such as Jira and Confluence. The site-based model was a remnant of Atlassian's original server-side business.
 
-The following models were created to simplify the problem space and propose a path forward. The solution proposed unified, per-user billing and the dissolution of the site-based model. It would take years of iteration to achieve, but eventually, Atlassian products would align on this as the correct path forward.
+During Atlassian's push to deliver Enterprise plans, we struggled with complex, inconsistent product architecture and billing systems. Atlassian had a mixed product portfolio: pure SaaS products billed per-user (like Bitbucket and Trello) and products belonging to multi-product sites (like Jira and Confluence). The site-based model was a remnant of Atlassian's server-side origins.
 
-### Billing model diagram
+These models simplified the problem space and proposed a path forward: unified per-user billing and dissolution of the site-based model. While it took years to achieve, Atlassian eventually aligned on this direction.
+
+### Billing model diagrams
 ![Billing inconsistencies between pure SaaS and site-based products](/assets/methods/systems-thinking/megacloud/01.png)
 *Billing inconsistencies between pure SaaS and site-based products*
 ![Simplified per user billing across all products](/assets/methods/systems-thinking/megacloud/02.png)
-*Simplified per user billing across all products*
+*Simplified per-user billing across all products*
 
 ### Product architecture iterations
 ![Initial product architecture](/assets/methods/systems-thinking/megacloud/03.png)
@@ -74,21 +83,12 @@ The following models were created to simplify the problem space and propose a pa
 ![Unified architecture and container model](/assets/methods/systems-thinking/megacloud/05.png)
 *Unified architecture and container model*
 ![Snippet from the blog share with Atlassian](/assets/methods/systems-thinking/megacloud/06.png)
-*Snippet from the blog share with Atlassian*
+*Snippet from blog shared with Atlassian*
 
 ## Object-oriented UX
 
 ### Certification
 
-I recently completed the Object-Oriented UX strategist certification. Following the ORCA (Objects, Relationships, CTAs, Attributes) process, OOUX offers a repeatable, pragmatic approach to delivering high-quality, consistent experiences by focusing on nouns before verbs. Having baked the ORCA process into my recent client work, I'm looking forward to sharing this process with in-house product teams.
+I recently completed the Object-Oriented UX strategist certification. Following the ORCA (Objects, Relationships, CTAs, Attributes) process, OOUX offers a repeatable, pragmatic approach to delivering high-quality, consistent experiences by focusing on nouns before verbs. Having integrated the ORCA process into recent client work, I'm excited to share this approach with in-house product teams.
 
 ![ORCA](/assets/methods/systems-thinking/ooux/01.png)
-
-
-
-
-
-
-
-
-
