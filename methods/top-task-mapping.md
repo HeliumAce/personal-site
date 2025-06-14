@@ -7,7 +7,28 @@ color: "#CD668F"
 order: 2
 ---
 
-This was a method I developed to help me understand the opportunities for machine learning at Atlassian. This method juxtaposed a set of top tasks against a future of work framework borrowed from the book "The Adaptation Advantage" by Heather E. McGowan and Chris Shipley. Through this exercise I was able to identify a POV on the opportunities for automation, atomization, and augmentation across Atlassian's key verticals. Below is a snapshot of the method and outputs.
+This method helped me understand the opportunities for deeper AI feature integration at Atlassian. By plotting top tasks against a future of work framework borrowed from "The Adaptation Advantage" by Heather E. McGowan and Chris Shipley, I identified clear automation and augmentation opportunities across Atlassian's key verticals.
+
+> 📫 Want to learn more about my methods or go deeper on a case study? <a href="https://linkedin.com/in/liamgreig">Get in touch</a>.
+
+## The framework
+
+The method maps each task across two axes:
+- **Task complexity:** Repetitive to Complex  
+- **Outcome clarity:** Known to Ambiguous
+
+Repetitive tasks with known outcomes are prime candidates for automation. Complex tasks with ambiguous outcomes work better with human-led augmentation. Tasks in the middle can often be broken down into automatable and human-led components.
+
+## Key insights
+
+Running this framework against Atlassian's top tasks in late 2020 revealed four themes where human judgment remained essential:
+
+**Developing strategy** — Creating novel ideas that differentiate products from competition  
+**Team cohesiveness** — Aligning teams on vision, motivating people, building relationships  
+**Coordinating complex programs** — Multi-team coordination, risk management, cross-team alignment  
+**Continuous learning** — Interpreting knowledge, decision making, fostering knowledge sharing culture
+
+*Note: These insights predate the current AI revolution. How do these themes hold up in 2025?*
 
 ## Knowledge management
 
