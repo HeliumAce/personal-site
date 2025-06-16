@@ -64,7 +64,7 @@ With a clear understanding of your current state, this session focuses on articu
 ![Defining our values](/assets/work/charter-workshop/07.png)
 *Defining our values*
 
-## Session 3: Our Work
+## Session 3: Our work
 
 **Goal:** Align on what we do and what we want to do
 
@@ -81,7 +81,7 @@ This session bridges ideals with reality. You'll inventory current responsibilit
 ![Planning our landing](/assets/work/charter-workshop/10.png)
 *Planning our landing*
 
-## Session 4: Collaboration and Success
+## Session 4: Collaboration and success
 
 **Goal:** Define how we work together and measure progress
 
